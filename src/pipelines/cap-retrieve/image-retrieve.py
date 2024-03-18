@@ -66,8 +66,8 @@ def main():
     data = pd.read_csv(config["metadata_path"])
 
     src_image_paths = data["image_path"].tolist()
-    blip_captions = data["BLIP Caption"].tolist()
-    llm_edits = data["LLM Edit"].tolist()
+    blip_captions = data["caption"].tolist()
+    llm_edits = data["llm_edit"].tolist()
 
     # setup clip options
     clip_options = ClipOptions(
@@ -141,7 +141,7 @@ def main():
     output_dir = config["output_file"].split("/")[:-1]
     os.makedirs("/".join(output_dir), exist_ok=True)
     with open(config["output_file"], 'w') as file:
-        file.write("src_image_path,tgt_image_path,BLIP Caption,LLM Edit,Retrieved Caption\n")
+        file.write("src_image_path,tgt_image_path,caption,llm_edit,retrieved_caption\n")
         for src_image in captions:
             logging.info(src_image)
             logging.info(image_urls[src_image])
