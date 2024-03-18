@@ -8,6 +8,7 @@ from diffusers import StableDiffusionInstructPix2PixPipeline, EulerAncestralDisc
 import random
 import logging
 import pandas as pd
+import json
 
 def download_image(path):
     image = PIL.Image.open(path)
@@ -59,8 +60,6 @@ def main():
     with open(args.config) as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
     
-    image_path_column = config["image_path_column"]
-    
     random.seed(config["seed"])
     
     # mkdir config["output_dir"] if it doesn't exist
@@ -73,23 +72,39 @@ def main():
     pipe.to("cuda")
     pipe.scheduler = EulerAncestralDiscreteScheduler.from_config(pipe.scheduler.config)
 
-    # Get multiple image paths from csv file
-    data = pd.read_csv(config["input_file"])
-    all_image_paths = data[image_path_column].tolist()
-    if args.debug:
-        all_image_paths = random.sample(all_image_paths, 20)
-    logging.info("Number of images: " + str(len(all_image_paths)))
+    # Get source images
+    source_countries_list = config["source_countries"]
+    source_data_path = config["source_data_path"]
+
+    all_source_paths = []
+    all_source_countries = []
+    for country in source_countries_list:
+        country_paths_file = source_data_path + "/" + country + ".json"
+        with open(country_paths_file) as f:
+            data = json.load(f)
+            # get values from json file which is a dictionary of dictionaries
+            for category in data:
+                all_source_paths.extend(data[category].values())
+                all_source_countries.extend([country] * len(data[category].values()))
+
+    if config["debug"]:
+        logging.info("Debug mode enabled. Using 20 random images.")
+        all_source_paths = random.sample(all_source_paths, 20)
+        all_source_countries = random.sample(all_source_countries, 20)
+    logging.info("Number of images: " + str(len(all_source_paths)))
     
     # Iterate over each image path and remove it if it doesn't exist
-    image_paths = []
-    for i in range(len(all_image_paths)):
-        if os.path.exists(all_image_paths[i]):
-            image_paths.append(all_image_paths[i])
-    logging.info("Number of images: " + str(len(image_paths)))
+    source_paths = []
+    source_countries = []
+    for i in range(len(all_source_paths)):
+        if os.path.exists(all_source_paths[i]):
+            source_paths.append(all_source_paths[i])
+            source_countries.append(all_source_countries[i])
+    logging.info("Number of images: " + str(len(source_paths)))
 
-    num_inference_steps = int(args.num_inference_steps)
-    image_guidance_scale = float(args.image_guidance)
-    guidance_scale = float(args.text_guidance)
+    num_inference_steps = int(config["num_inference_steps"])
+    image_guidance_scale = float(config["image_guidance"])
+    guidance_scale = float(config["text_guidance"])
 
     output_dir = config["output_dir"] + "/" + str(num_inference_steps) + "_" + str(image_guidance_scale) + "_" + str(guidance_scale)
 
@@ -97,8 +112,8 @@ def main():
         os.makedirs(output_dir, exist_ok=True)
     # Generate images
     with open(output_dir + "/metadata.csv", "w") as f:
-        f.write("src_image_path,tgt_image_path,prompt\n")
-        for i, image_path in enumerate(image_paths):
+        f.write("src_image_path,src_country,tgt_image_path,prompt\n")
+        for i, image_path in enumerate(source_paths):
             try:
                 image = download_image(image_path)
                 image = resize_image(image)
@@ -106,7 +121,7 @@ def main():
                 generated_image = pipe(prompt, image=image, num_inference_steps=num_inference_steps, image_guidance_scale=image_guidance_scale, guidance_scale=guidance_scale).images[0]
                 generated_image_path = output_dir + "/" + image_path.split("/")[-1]
                 generated_image.save(generated_image_path)
-                f.write(image_path + "," + generated_image_path + "," + prompt + "\n")
+                f.write(image_path + "," + source_countries[i] + "," + generated_image_path + "," + prompt + "\n")
             except torch.cuda.OutOfMemoryError as e:
                 logging.info(f"Skipping image {image_path} due to CUDA OOM error: {e}")
                 continue
