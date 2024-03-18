@@ -106,7 +106,8 @@ def main():
     image_guidance_scale = float(config["image_guidance"])
     guidance_scale = float(config["text_guidance"])
 
-    output_dir = config["output_dir"] + "/" + str(num_inference_steps) + "_" + str(image_guidance_scale) + "_" + str(guidance_scale)
+    # output_dir = config["output_dir"] + "/" + str(num_inference_steps) + "_" + str(image_guidance_scale) + "_" + str(guidance_scale)
+    output_dir = config["output_dir"]
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir, exist_ok=True)
@@ -118,8 +119,9 @@ def main():
                 image = download_image(image_path)
                 image = resize_image(image)
                 prompt = config["prompt"]
+                src_country = source_countries[i]
                 generated_image = pipe(prompt, image=image, num_inference_steps=num_inference_steps, image_guidance_scale=image_guidance_scale, guidance_scale=guidance_scale).images[0]
-                generated_image_path = output_dir + "/" + image_path.split("/")[-1]
+                generated_image_path = output_dir + "/" + src_country + "_" + image_path.split("/")[-1]
                 generated_image.save(generated_image_path)
                 f.write(image_path + "," + source_countries[i] + "," + generated_image_path + "," + prompt + "\n")
             except torch.cuda.OutOfMemoryError as e:

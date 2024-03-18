@@ -37,7 +37,8 @@ def download_image(image_url, folder_path, file_name=None):
         file_path = Path(folder_path) / file_name
         file_size = os.stat(file_path).st_size
 
-        if file_size == 0 or file_size < 1024:
+        # return error if image is meaningless
+        if file_size < 8192:
             logging.info(f"Image saved is null or suspiciously small (size: {file_size} bytes)")
             return "error"
 
@@ -53,11 +54,11 @@ def download_image(image_url, folder_path, file_name=None):
 def main():
     # set up logging
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-    os.environ["CUDA_VISIBLE_DEVICES"]=""
+    os.environ["CUDA_VISIBLE_DEVICES"]="0, 1"
 
     # read in the config file
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", type=str, default="configs/retrieval.yaml", help="Path to config file")
+    parser.add_argument("--config", type=str, default="./configs/part1/cap-retrieve/brazil.yaml", help="Path to config file")
     args = parser.parse_args()
     with open(args.config, "r") as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
@@ -65,9 +66,9 @@ def main():
     # read in the metadata file
     data = pd.read_csv(config["metadata_path"])
 
-    src_image_paths = data["image_path"].tolist()
-    blip_captions = data["caption"].tolist()
-    llm_edits = data["llm_edit"].tolist()
+    src_image_paths = data[config["src_image_path_col"]].tolist()
+    blip_captions = data[config["caption_col"]].tolist()
+    llm_edits = data[config["llm_edit_col"]].tolist()
 
     # setup clip options
     clip_options = ClipOptions(

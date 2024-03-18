@@ -15,7 +15,14 @@ Run `./configs/part1/caption-llm_edit/make_configs.sh` to make config files for 
 Run `./scripts/part1/caption-llm_edit.sh` to get captions and LLM edits for all countries using InstructBLIP and GPT-3.5 respectively.
 
 #### Step 2: Edit images using LLM-edits and PlugnPlay
-We've made modifications on top of `https://github.com/MichalGeyer/pnp-diffusers`. Kindly clone the fork of this repository from `<enter fork URL post review>` under `./src/pipelines/cap-edit/image-edit`. First create the `pnp-diffusers` environment. 
+We've made modifications on top of `https://github.com/MichalGeyer/pnp-diffusers`. Kindly clone the fork of this repository from `<enter fork URL post review>` under `./src/pipelines/cap-edit/image-edit`. Follow through their readme and first create the `pnp-diffusers` environment. Image-editing using the plugnplay model involves two stages: a) obtain the noisy latents if the original image; and b) image-editing as per text guidance. To obtain latents, run the following:
+```
+bash ./scripts/part1/step1_pnp_preprocess.sh
+```
+To edit images according using the LLM edits as text guidance, run the following:
+```
+bash ./scripts/part1/step2_pnp_img-edit.sh
+```
 
 
 ### cap-retrieve
@@ -23,5 +30,16 @@ We've made modifications on top of `https://github.com/MichalGeyer/pnp-diffusers
 Same as for `cap-edit`. No need to run anything here if already run for `cap-edit`, else follow instructions from above to get captions and LLM edits
 
 #### Step 2: Retrieve images from LAION-{COUNTRY} using LLM-edits as text queries
-First create autofaiss indices for country specific subsets of LAION. For this, first run `./src/pipelines/cap-retrieve/prepare_laion/categorize_cctld.py` to create json files of image paths for each country. Next follow through `./src/pipelines/cap-retrieve/prepare_laion/step1-img2dataset.sh`, `./src/pipelines/cap-retrieve/prepare_laion/step2-embeddings.sh` and `./src/pipelines/cap-retrieve/prepare_laion/step3-index.sh` to create datasets from images, get embeddings for images and text, and create indices from the embeddings, respectively. We leverage the [clip-retrieval](https://github.com/rom1504/clip-retrieval) infrastructure to obtain these indices in a scalable and efficient way.
+Create a fresh environment by running:
+```
+conda create -n clip-ret-env python=3.10
+```
+We leverage the [clip-retrieval](https://github.com/rom1504/clip-retrieval) infrastructure to obtain LAION indices in a scalable and efficient way. Hence, run `pip install clip-retrieval`. 
+
+We create autofaiss indices for country specific subsets of LAION. For this, navigate to `./src/pipelines/cap-retrieve/prepare_laion` and run `categorize_cctld.py` to create json files of image paths for each country. Next follow through `step1-img2dataset.sh`, `step2-embeddings.sh` and `step3-index.sh` to create datasets from images, get embeddings for images and text, and create indices from the embeddings, respectively. 
+
+Now, to retrieve images from LAION given a text query (here, this is the LLM-edited captions obtained in Step-1), run the following:
+```
+bash ./scripts/part1/cap-retrieve.sh
+```
 

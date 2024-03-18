@@ -46,7 +46,7 @@ def main():
 
     # Read in config file to get args
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", default="configs/part1/cap-edit/caption-llm_edit/brazil.yaml", help="Path to config file.")
+    parser.add_argument("--config", default="configs/part1/caption-llm_edit/brazil.yaml", help="Path to config file.")
     args = parser.parse_args()
     with open(args.config) as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
@@ -78,7 +78,7 @@ def main():
             for category in data:
                 all_source_paths.extend(data[category].values())
                 all_source_countries.extend([country] * len(data[category].values()))
-
+    
     instructblip_prompts = []
     if task_path != '':
         tasks = json.load(open(task_path)).keys()
@@ -128,7 +128,6 @@ def main():
         for char in ["\"", ";", "."]:
             gen_text = gen_text.replace(char, "")
         llm_text.append(gen_text)
-        logging.info(gen_text)
     
     logging.info(llm_text)
     
