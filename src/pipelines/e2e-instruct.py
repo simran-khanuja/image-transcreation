@@ -9,8 +9,21 @@ import random
 import logging
 import pandas as pd
 import json
+import requests
+from io import BytesIO
 
 def download_image(path):
+    # check if image is URL and download if yes
+    if path.startswith("http"):
+        response = requests.get(path, timeout=120)
+        if response.status_code == 200 and response.headers['Content-Type'].startswith('image'):
+            image = PIL.Image.open(BytesIO(response.content))
+            image = PIL.ImageOps.exif_transpose(image)
+            image = image.convert("RGB")
+            return image
+        else:
+            logging.info(f"Invalid response")
+            return "error"
     image = PIL.Image.open(path)
     image = PIL.ImageOps.exif_transpose(image)
     image = image.convert("RGB")
