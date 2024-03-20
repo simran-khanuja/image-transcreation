@@ -1,0 +1,121 @@
+{
+    "bird": {
+        "House-sparrow": "https://storage.googleapis.com/image-transcreation/part1/india/bird_House-sparrow.jpg",
+        "Indian-peafowl": "https://storage.googleapis.com/image-transcreation/part1/india/bird_Indian-peafowl.jpg",
+        "Rose-ringed-parakeet": "https://storage.googleapis.com/image-transcreation/part1/india/bird_Rose-ringed-parakeet.jpg",
+        "Indian-roller": "https://storage.googleapis.com/image-transcreation/part1/india/bird_Indian-roller.jpg",
+        "Common-myna": "https://storage.googleapis.com/image-transcreation/part1/india/bird_Common-myna.jpg"
+    },
+    "mammal": {
+        "bengal-tiger": "https://storage.googleapis.com/image-transcreation/part1/india/mammal_bengal-tiger.jpg",
+        "deer": "https://storage.googleapis.com/image-transcreation/part1/india/mammal_deer.jpg",
+        "rhinoceros": "https://storage.googleapis.com/image-transcreation/part1/india/mammal_rhinoceros.jpg",
+        "langur-monkey": "https://storage.googleapis.com/image-transcreation/part1/india/mammal_langur-monkey.jpg",
+        "elephant": "https://storage.googleapis.com/image-transcreation/part1/india/mammal_elephant.jpg"
+    },
+    "food": {
+        "Samosa": "https://storage.googleapis.com/image-transcreation/part1/india/food_Samosa.jpg",
+        "Chicken-tikka-masala": "https://storage.googleapis.com/image-transcreation/part1/india/food_Chicken-tikka-masala.jpg",
+        "Dosa": "https://storage.googleapis.com/image-transcreation/part1/india/food_Dosa.jpg",
+        "Tandoori-chicken": "https://storage.googleapis.com/image-transcreation/part1/india/food_Tandoori-chicken.jpg",
+        "Biryani": "https://storage.googleapis.com/image-transcreation/part1/india/food_Biryani.jpg"
+    },
+    "beverages": {
+        "nimbu-paani": "https://storage.googleapis.com/image-transcreation/part1/india/beverages_nimbu-paani.jpg",
+        "lassi": "https://storage.googleapis.com/image-transcreation/part1/india/beverages_lassi.jpg",
+        "filter-coffee": "https://storage.googleapis.com/image-transcreation/part1/india/beverages_filter-coffee.jpg",
+        "kingfisher-beer": "https://storage.googleapis.com/image-transcreation/part1/india/beverages_kingfisher-beer.jpg",
+        "chai": "https://storage.googleapis.com/image-transcreation/part1/india/beverages_chai.jpg"
+    },
+    "clothing": {
+        "Kurta": "https://storage.googleapis.com/image-transcreation/part1/india/clothing_Kurta.jpg",
+        "Churidar": "https://storage.googleapis.com/image-transcreation/part1/india/clothing_Churidar.jpg",
+        "Sari": "https://storage.googleapis.com/image-transcreation/part1/india/clothing_Sari.jpg",
+        "Shalwar-kameez": "https://storage.googleapis.com/image-transcreation/part1/india/clothing_Shalwar-kameez.jpg",
+        "Lehenga": "https://storage.googleapis.com/image-transcreation/part1/india/clothing_Lehenga.jpg"
+    },
+    "houses": {
+        "Bungalow": "https://storage.googleapis.com/image-transcreation/part1/india/houses_Bungalow.jpg",
+        "Mosque": "https://storage.googleapis.com/image-transcreation/part1/india/houses_Mosque.jpg",
+        "Hut": "https://storage.googleapis.com/image-transcreation/part1/india/houses_Hut.jpg",
+        "Temple": "https://storage.googleapis.com/image-transcreation/part1/india/houses_Temple.jpg",
+        "Villa": "https://storage.googleapis.com/image-transcreation/part1/india/houses_Villa.jpg"
+    },
+    "flower": {
+        "Marigold": "https://storage.googleapis.com/image-transcreation/part1/india/flower_Marigold.jpg",
+        "Jasmine": "https://storage.googleapis.com/image-transcreation/part1/india/flower_Jasmine.jpg",
+        "Hibiscus": "https://storage.googleapis.com/image-transcreation/part1/india/flower_Hibiscus.jpg",
+        "Indian-Lotus": "https://storage.googleapis.com/image-transcreation/part1/india/flower_Indian-Lotus.jpg",
+        "Rose": "https://storage.googleapis.com/image-transcreation/part1/india/flower_Rose.jpg"
+    },
+    "fruit": {
+        "Lychee": "https://storage.googleapis.com/image-transcreation/part1/india/fruit_Lychee.jpg",
+        "Chikoo": "https://storage.googleapis.com/image-transcreation/part1/india/fruit_Chikoo.jpg",
+        "Mango": "https://storage.googleapis.com/image-transcreation/part1/india/fruit_Mango.jpg",
+        "Guava": "https://storage.googleapis.com/image-transcreation/part1/india/fruit_Guava.jpg",
+        "Papaya": "https://storage.googleapis.com/image-transcreation/part1/india/fruit_Papaya.jpg"
+    },
+    "vegetable": {
+        "Spinach": "https://storage.googleapis.com/image-transcreation/part1/india/vegetable_Spinach.jpg",
+        "Cabbage": "https://storage.googleapis.com/image-transcreation/part1/india/vegetable_Cabbage.jpg",
+        "Eggplant": "https://storage.googleapis.com/image-transcreation/part1/india/vegetable_Eggplant.jpg",
+        "Okra": "https://storage.googleapis.com/image-transcreation/part1/india/vegetable_Okra.jpg",
+        "Cauliflower": "https://storage.googleapis.com/image-transcreation/part1/india/vegetable_Cauliflower.jpg"
+    },
+    "agriculture": {
+        "wheat-farming": "https://storage.googleapis.com/image-transcreation/part1/india/agriculture_wheat-farming.jpg",
+        "rice-cultivation": "https://storage.googleapis.com/image-transcreation/part1/india/agriculture_rice-cultivation.jpg",
+        "tea-plantations": "https://storage.googleapis.com/image-transcreation/part1/india/agriculture_tea-plantations.jpg",
+        "dairy-farming": "https://storage.googleapis.com/image-transcreation/part1/india/agriculture_dairy-farming.jpg",
+        "cotton-production": "https://storage.googleapis.com/image-transcreation/part1/india/agriculture_cotton-production.jpg"
+    },
+    "utensil": {
+        "Rolling-pin": "https://storage.googleapis.com/image-transcreation/part1/india/utensil_Rolling-pin.jpg",
+        "Skimmer": "https://storage.googleapis.com/image-transcreation/part1/india/utensil_Skimmer.jpg",
+        "Pressure-Cooker": "https://storage.googleapis.com/image-transcreation/part1/india/utensil_Pressure-Cooker.jpg",
+        "Tava": "https://storage.googleapis.com/image-transcreation/part1/india/utensil_Tava.jpg",
+        "Karahi": "https://storage.googleapis.com/image-transcreation/part1/india/utensil_Karahi.jpg"
+    },
+    "sport": {
+        "badminton": "https://storage.googleapis.com/image-transcreation/part1/india/sport_badminton.jpg",
+        "chess": "https://storage.googleapis.com/image-transcreation/part1/india/sport_chess.jpg",
+        "kabaddi": "https://storage.googleapis.com/image-transcreation/part1/india/sport_kabaddi.jpg",
+        "cricket": "https://storage.googleapis.com/image-transcreation/part1/india/sport_cricket.jpg",
+        "hockey": "https://storage.googleapis.com/image-transcreation/part1/india/sport_hockey.jpg"
+    },
+    "celebrations": {
+        "Vijayadashami": "https://storage.googleapis.com/image-transcreation/part1/india/celebrations_Vijayadashami.jpg",
+        "Ganesh-Chaturthi": "https://storage.googleapis.com/image-transcreation/part1/india/celebrations_Ganesh-Chaturthi.jpg",
+        "Diwali": "https://storage.googleapis.com/image-transcreation/part1/india/celebrations_Diwali.jpg",
+        "Holi": "https://storage.googleapis.com/image-transcreation/part1/india/celebrations_Holi.jpg",
+        "Eid-al-Fitr": "https://storage.googleapis.com/image-transcreation/part1/india/celebrations_Eid-al-Fitr.jpg"
+    },
+    "education": {
+        "Blackboard": "https://storage.googleapis.com/image-transcreation/part1/india/education_Blackboard.jpg",
+        "gurukula": "https://storage.googleapis.com/image-transcreation/part1/india/education_gurukula.jpg",
+        "Vedas": "https://storage.googleapis.com/image-transcreation/part1/india/education_Vedas.jpg",
+        "Central-Board-of-Secondary-Education": "https://storage.googleapis.com/image-transcreation/part1/india/education_Central-Board-of-Secondary-Education.jpg",
+        "Indian-Institutes-of-Technology": "https://storage.googleapis.com/image-transcreation/part1/india/education_Indian-Institutes-of-Technology.jpg"
+    },
+    "music": {
+        "harmonium": "https://storage.googleapis.com/image-transcreation/part1/india/music_harmonium.jpg",
+        "flute": "https://storage.googleapis.com/image-transcreation/part1/india/music_flute.jpg",
+        "tabla": "https://storage.googleapis.com/image-transcreation/part1/india/music_tabla.jpg",
+        "tanpura": "https://storage.googleapis.com/image-transcreation/part1/india/music_tanpura.jpg",
+        "veena": "https://storage.googleapis.com/image-transcreation/part1/india/music_veena.jpg"
+    },
+    "visual-arts": {
+        "Madhubani-art": "https://storage.googleapis.com/image-transcreation/part1/india/visual-arts_Madhubani-art.jpg",
+        "Indian-painting": "https://storage.googleapis.com/image-transcreation/part1/india/visual-arts_Indian-painting.jpg",
+        "Sculpture-in-the-Indian-subcontinent": "https://storage.googleapis.com/image-transcreation/part1/india/visual-arts_Sculpture-in-the-Indian-subcontinent.jpg",
+        "Kalamkari": "https://storage.googleapis.com/image-transcreation/part1/india/visual-arts_Kalamkari.jpg",
+        "Pattachitra": "https://storage.googleapis.com/image-transcreation/part1/india/visual-arts_Pattachitra.jpg"
+    },
+    "religion": {
+        "Sikhism": "https://storage.googleapis.com/image-transcreation/part1/india/religion_Sikhism.jpg",
+        "Hinduism": "https://storage.googleapis.com/image-transcreation/part1/india/religion_Hinduism.jpg",
+        "Islam": "https://storage.googleapis.com/image-transcreation/part1/india/religion_Islam.jpg",
+        "Jainism": "https://storage.googleapis.com/image-transcreation/part1/india/religion_Jainism.jpg",
+        "Buddhism": "https://storage.googleapis.com/image-transcreation/part1/india/religion_Buddhism.jpg"
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "bird": {
+        "bald-eagle": "https://storage.googleapis.com/image-transcreation/part1/united-states/bird_bald-eagle.jpg",
+        "mourning-dove": "https://storage.googleapis.com/image-transcreation/part1/united-states/bird_mourning-dove.jpg",
+        "blue-jay": "https://storage.googleapis.com/image-transcreation/part1/united-states/bird_blue-jay.jpg",
+        "american-robin": "https://storage.googleapis.com/image-transcreation/part1/united-states/bird_american-robin.jpg",
+        "american-crow": "https://storage.googleapis.com/image-transcreation/part1/united-states/bird_american-crow.jpg"
+    },
+    "mammal": {
+        "raccoon": "https://storage.googleapis.com/image-transcreation/part1/united-states/mammal_raccoon.jpg",
+        "white-tailed-deer": "https://storage.googleapis.com/image-transcreation/part1/united-states/mammal_white-tailed-deer.jpg",
+        "cougar": "https://storage.googleapis.com/image-transcreation/part1/united-states/mammal_cougar.jpg",
+        "north-american-beaver": "https://storage.googleapis.com/image-transcreation/part1/united-states/mammal_north-american-beaver.jpg",
+        "american-black-bear": "https://storage.googleapis.com/image-transcreation/part1/united-states/mammal_american-black-bear.jpg"
+    },
+    "food": {
+        "apple-pie": "https://storage.googleapis.com/image-transcreation/part1/united-states/food_apple-pie.jpg",
+        "hotdog": "https://storage.googleapis.com/image-transcreation/part1/united-states/food_hotdog.png",
+        "fried-chicken": "https://storage.googleapis.com/image-transcreation/part1/united-states/food_fried-chicken.jpg",
+        "hamburger": "https://storage.googleapis.com/image-transcreation/part1/united-states/food_hamburger.jpeg",
+        "french-fries": "https://storage.googleapis.com/image-transcreation/part1/united-states/food_french-fries.jpg"
+    },
+    "beverages": {
+        "beer": "https://storage.googleapis.com/image-transcreation/part1/united-states/beverages_beer.jpg",
+        "sweet-tea": "https://storage.googleapis.com/image-transcreation/part1/united-states/beverages_sweet-tea.jpg",
+        "coffee": "https://storage.googleapis.com/image-transcreation/part1/united-states/beverages_coffee.jpg",
+        "coca-cola": "https://storage.googleapis.com/image-transcreation/part1/united-states/beverages_coca-cola.jpg",
+        "orange-juice": "https://storage.googleapis.com/image-transcreation/part1/united-states/beverages_orange-juice.jpg"
+    },
+    "clothing": {
+        "jeans": "https://storage.googleapis.com/image-transcreation/part1/united-states/clothing_jeans.jpg",
+        "suit": "https://storage.googleapis.com/image-transcreation/part1/united-states/clothing_suit.jpg",
+        "sneakers": "https://storage.googleapis.com/image-transcreation/part1/united-states/clothing_sneakers.jpg",
+        "down-jacket": "https://storage.googleapis.com/image-transcreation/part1/united-states/clothing_down-jacket.jpg",
+        "cowboy-hat": "https://storage.googleapis.com/image-transcreation/part1/united-states/clothing_cowboy-hat.jpg"
+    },
+    "houses": {
+        "apartment": "https://storage.googleapis.com/image-transcreation/part1/united-states/houses_apartment.jpg",
+        "townhouse": "https://storage.googleapis.com/image-transcreation/part1/united-states/houses_townhouse.jpg",
+        "prairie-school": "https://storage.googleapis.com/image-transcreation/part1/united-states/houses_prairie-school.jpg",
+        "california-bungalow": "https://storage.googleapis.com/image-transcreation/part1/united-states/houses_california-bungalow.jpg",
+        "ranch-style-house": "https://storage.googleapis.com/image-transcreation/part1/united-states/houses_ranch-style-house.jpg"
+    },
+    "flower": {
+        "narcissus": "https://storage.googleapis.com/image-transcreation/part1/united-states/flower_narcissus.jpg",
+        "rose": "https://storage.googleapis.com/image-transcreation/part1/united-states/flower_rose.jpg",
+        "lilium": "https://storage.googleapis.com/image-transcreation/part1/united-states/flower_lilium.jpg",
+        "tulip": "https://storage.googleapis.com/image-transcreation/part1/united-states/flower_tulip.jpg",
+        "common-sunflower": "https://storage.googleapis.com/image-transcreation/part1/united-states/flower_common-sunflower.jpg"
+    },
+    "fruit": {
+        "watermelon": "https://storage.googleapis.com/image-transcreation/part1/united-states/fruit_watermelon.jpg",
+        "banana": "https://storage.googleapis.com/image-transcreation/part1/united-states/fruit_banana.jpg",
+        "apple": "https://storage.googleapis.com/image-transcreation/part1/united-states/fruit_apple.jpg",
+        "blueberry": "https://storage.googleapis.com/image-transcreation/part1/united-states/fruit_blueberry.jpg",
+        "orange": "https://storage.googleapis.com/image-transcreation/part1/united-states/fruit_orange.jpg"
+    },
+    "vegetable": {
+        "brussels-sprout": "https://storage.googleapis.com/image-transcreation/part1/united-states/vegetable_brussels-sprout.jpg",
+        "kale": "https://storage.googleapis.com/image-transcreation/part1/united-states/vegetable_kale.jpg",
+        "broccoli": "https://storage.googleapis.com/image-transcreation/part1/united-states/vegetable_broccoli.jpg",
+        "carrot": "https://storage.googleapis.com/image-transcreation/part1/united-states/vegetable_carrot.jpg",
+        "potato": "https://storage.googleapis.com/image-transcreation/part1/united-states/vegetable_potato.jpg"
+    },
+    "agriculture": {
+        "cotton": "https://storage.googleapis.com/image-transcreation/part1/united-states/agriculture_cotton.jpg",
+        "wheat": "https://storage.googleapis.com/image-transcreation/part1/united-states/agriculture_wheat.jpg",
+        "tobacco": "https://storage.googleapis.com/image-transcreation/part1/united-states/agriculture_tobacco.jpg",
+        "dairy-farming": "https://storage.googleapis.com/image-transcreation/part1/united-states/agriculture_dairy-farming.jpg",
+        "maize": "https://storage.googleapis.com/image-transcreation/part1/united-states/agriculture_maize.jpg"
+    },
+    "utensil": {
+        "spatula": "https://storage.googleapis.com/image-transcreation/part1/united-states/utensil_spatula.jpg",
+        "spoon": "https://storage.googleapis.com/image-transcreation/part1/united-states/utensil_spoon.jpg",
+        "fork": "https://storage.googleapis.com/image-transcreation/part1/united-states/utensil_fork.jpg",
+        "tongs": "https://storage.googleapis.com/image-transcreation/part1/united-states/utensil_tongs.jpg",
+        "table-knife": "https://storage.googleapis.com/image-transcreation/part1/united-states/utensil_table-knife.jpg"
+    },
+    "sport": {
+        "baseball": "https://storage.googleapis.com/image-transcreation/part1/united-states/sport_baseball.jpg",
+        "golf": "https://storage.googleapis.com/image-transcreation/part1/united-states/sport_golf.jpg",
+        "basketball": "https://storage.googleapis.com/image-transcreation/part1/united-states/sport_basketball.jpg",
+        "volleyball": "https://storage.googleapis.com/image-transcreation/part1/united-states/sport_volleyball.jpg",
+        "american-football": "https://storage.googleapis.com/image-transcreation/part1/united-states/sport_american-football.jpg"
+    },
+    "celebrations": {
+        "christmas": "https://storage.googleapis.com/image-transcreation/part1/united-states/celebrations_christmas.jpg",
+        "new-years-day": "https://storage.googleapis.com/image-transcreation/part1/united-states/celebrations_new-years-day.jpg",
+        "halloween": "https://storage.googleapis.com/image-transcreation/part1/united-states/celebrations_halloween.jpg",
+        "thanksgiving": "https://storage.googleapis.com/image-transcreation/part1/united-states/celebrations_thanksgiving.jpg",
+        "independence-day": "https://storage.googleapis.com/image-transcreation/part1/united-states/celebrations_independence-day.jpg"
+    },
+    "education": {
+        "kahoot": "https://storage.googleapis.com/image-transcreation/part1/united-states/education_kahoot.jpg",
+        "projector": "https://storage.googleapis.com/image-transcreation/part1/united-states/education_projector.jpg",
+        "state-school": "https://storage.googleapis.com/image-transcreation/part1/united-states/education_state-school.jpg",
+        "boarding-school": "https://storage.googleapis.com/image-transcreation/part1/united-states/education_boarding-school.jpg",
+        "blended-learning": "https://storage.googleapis.com/image-transcreation/part1/united-states/education_blended-learning.jpg"
+    },
+    "music": {
+        "jazz": "https://storage.googleapis.com/image-transcreation/part1/united-states/music_jazz.jpg",
+        "country": "https://storage.googleapis.com/image-transcreation/part1/united-states/music_country.jpg",
+        "bluegrass": "https://storage.googleapis.com/image-transcreation/part1/united-states/music_bluegrass.jpg",
+        "rock": "https://storage.googleapis.com/image-transcreation/part1/united-states/music_rock.jpg",
+        "pop-music": "https://storage.googleapis.com/image-transcreation/part1/united-states/music_pop-music.jpg"
+    },
+    "visual-arts": {
+        "street-art": "https://storage.googleapis.com/image-transcreation/part1/united-states/visual-arts_street-art.jpg",
+        "mural-painting": "https://storage.googleapis.com/image-transcreation/part1/united-states/visual-arts_mural-painting.jpg",
+        "pop-art": "https://storage.googleapis.com/image-transcreation/part1/united-states/visual-arts_pop-art.jpg",
+        "art-of-the-american-southwest": "https://storage.googleapis.com/image-transcreation/part1/united-states/visual-arts_art-of-the-american-southwest.jpg",
+        "abstract-expressionism": "https://storage.googleapis.com/image-transcreation/part1/united-states/visual-arts_abstract-expressionism.jpg"
+    },
+    "religion": {
+        "mainline-protestant": "https://storage.googleapis.com/image-transcreation/part1/united-states/religion_mainline-protestant.jpg",
+        "mormonism": "https://storage.googleapis.com/image-transcreation/part1/united-states/religion_mormonism.jpg",
+        "evangelicalism": "https://storage.googleapis.com/image-transcreation/part1/united-states/religion_evangelicalism.jpg",
+        "judaism": "https://storage.googleapis.com/image-transcreation/part1/united-states/religion_judaism.jpg",
+        "christianity": "https://storage.googleapis.com/image-transcreation/part1/united-states/religion_christianity.jpg"
+    }
+}

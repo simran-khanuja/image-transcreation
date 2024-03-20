@@ -1,0 +1,121 @@
+{
+    "bird": {
+        "carrion-crow": "https://storage.googleapis.com/image-transcreation/part1/portugal/bird_carrion-crow.jpg",
+        "gull": "https://storage.googleapis.com/image-transcreation/part1/portugal/bird_gull.jpg",
+        "common-blackbird": "https://storage.googleapis.com/image-transcreation/part1/portugal/bird_common-blackbird.jpg",
+        "rock-dove": "https://storage.googleapis.com/image-transcreation/part1/portugal/bird_rock-dove.jpg",
+        "house-sparrow": "https://storage.googleapis.com/image-transcreation/part1/portugal/bird_house-sparrow.jpg"
+    },
+    "mammal": {
+        "porco": "https://storage.googleapis.com/image-transcreation/part1/portugal/mammal_porco.jpg",
+        "arouquesa-bull": "https://storage.googleapis.com/image-transcreation/part1/portugal/mammal_arouquesa-bull.jpg",
+        "red-squirrel": "https://storage.googleapis.com/image-transcreation/part1/portugal/mammal_red-squirrel.jpg",
+        "estrela-mountain-dog": "https://storage.googleapis.com/image-transcreation/part1/portugal/mammal_estrela-mountain-dog.jpg",
+        "iberian-lynx": "https://storage.googleapis.com/image-transcreation/part1/portugal/mammal_iberian-lynx.jpg"
+    },
+    "food": {
+        "cozido-à-portuguesa": "https://storage.googleapis.com/image-transcreation/part1/portugal/food_cozido-à-portuguesa.jpg",
+        "bacalhau-à-brás": "https://storage.googleapis.com/image-transcreation/part1/portugal/food_bacalhau-à-brás.jpg",
+        "francesinha": "https://storage.googleapis.com/image-transcreation/part1/portugal/food_francesinha.jpg",
+        "pastel-de-nata": "https://storage.googleapis.com/image-transcreation/part1/portugal/food_pastel-de-nata.jpg",
+        "bifana": "https://storage.googleapis.com/image-transcreation/part1/portugal/food_bifana.jpg"
+    },
+    "beverages": {
+        "poncha": "https://storage.googleapis.com/image-transcreation/part1/portugal/beverages_poncha.jpg",
+        "port-wine": "https://storage.googleapis.com/image-transcreation/part1/portugal/beverages_port-wine.jpg",
+        "sagres": "https://storage.googleapis.com/image-transcreation/part1/portugal/beverages_sagres.jpg",
+        "ginjinha": "https://storage.googleapis.com/image-transcreation/part1/portugal/beverages_ginjinha.jpg",
+        "espresso": "https://storage.googleapis.com/image-transcreation/part1/portugal/beverages_espresso.jpg"
+    },
+    "clothing": {
+        "ribeira": "https://storage.googleapis.com/image-transcreation/part1/portugal/clothing_ribeira.jpg",
+        "camisola-poveira": "https://storage.googleapis.com/image-transcreation/part1/portugal/clothing_camisola-poveira.jpg",
+        "capote-alentejano": "https://storage.googleapis.com/image-transcreation/part1/portugal/clothing_capote-alentejano.jpg",
+        "traje-campino-ribatejano": "https://storage.googleapis.com/image-transcreation/part1/portugal/clothing_traje-campino-ribatejano.jpg",
+        "caretos-de-podence": "https://storage.googleapis.com/image-transcreation/part1/portugal/clothing_caretos-de-podence.jpg"
+    },
+    "houses": {
+        "aldeias-do-xisto": "https://storage.googleapis.com/image-transcreation/part1/portugal/houses_aldeias-do-xisto.jpg",
+        "palácio-nacional-de-belém": "https://storage.googleapis.com/image-transcreation/part1/portugal/houses_palácio-nacional-de-belém.jpg",
+        "piódão": "https://storage.googleapis.com/image-transcreation/part1/portugal/houses_piódão.jpg",
+        "casas-típicas-de-santana": "https://storage.googleapis.com/image-transcreation/part1/portugal/houses_casas-típicas-de-santana.jpg",
+        "palácio-de-cristal": "https://storage.googleapis.com/image-transcreation/part1/portugal/houses_palácio-de-cristal.jpg"
+    },
+    "flower": {
+        "girassol": "https://storage.googleapis.com/image-transcreation/part1/portugal/flower_girassol.jpg",
+        "dianthus-caryophyllus": "https://storage.googleapis.com/image-transcreation/part1/portugal/flower_dianthus-caryophyllus.jpg",
+        "bellis-annua": "https://storage.googleapis.com/image-transcreation/part1/portugal/flower_bellis-annua.jpg",
+        "magnolia": "https://storage.googleapis.com/image-transcreation/part1/portugal/flower_magnolia.jpg",
+        "orquídea": "https://storage.googleapis.com/image-transcreation/part1/portugal/flower_orquídea.jpg"
+    },
+    "fruit": {
+        "apple": "https://storage.googleapis.com/image-transcreation/part1/portugal/fruit_apple.jpg",
+        "rocha-pear": "https://storage.googleapis.com/image-transcreation/part1/portugal/fruit_rocha-pear.jpg",
+        "grape": "https://storage.googleapis.com/image-transcreation/part1/portugal/fruit_grape.jpg",
+        "peach": "https://storage.googleapis.com/image-transcreation/part1/portugal/fruit_peach.jpg",
+        "orange": "https://storage.googleapis.com/image-transcreation/part1/portugal/fruit_orange.jpg"
+    },
+    "vegetable": {
+        "lettuce": "https://storage.googleapis.com/image-transcreation/part1/portugal/vegetable_lettuce.jpg",
+        "pumpkin": "https://storage.googleapis.com/image-transcreation/part1/portugal/vegetable_pumpkin.jpg",
+        "potato": "https://storage.googleapis.com/image-transcreation/part1/portugal/vegetable_potato.jpg",
+        "zucchini": "https://storage.googleapis.com/image-transcreation/part1/portugal/vegetable_zucchini.jpg",
+        "beterraba": "https://storage.googleapis.com/image-transcreation/part1/portugal/vegetable_beterraba.jpg"
+    },
+    "agriculture": {
+        "olive-oil-mills": "https://storage.googleapis.com/image-transcreation/part1/portugal/agriculture_olive-oil-mills.jpg",
+        "cork-oak-plantations": "https://storage.googleapis.com/image-transcreation/part1/portugal/agriculture_cork-oak-plantations.jpg",
+        "vindima": "https://storage.googleapis.com/image-transcreation/part1/portugal/agriculture_vindima.jpg",
+        "salt-pans": "https://storage.googleapis.com/image-transcreation/part1/portugal/agriculture_salt-pans.jpg",
+        "floricultura": "https://storage.googleapis.com/image-transcreation/part1/portugal/agriculture_floricultura.jpg"
+    },
+    "utensil": {
+        "nutcracker": "https://storage.googleapis.com/image-transcreation/part1/portugal/utensil_nutcracker.jpg",
+        "chave-inglesa": "https://storage.googleapis.com/image-transcreation/part1/portugal/utensil_chave-inglesa.jpg",
+        "wooden-spoon": "https://storage.googleapis.com/image-transcreation/part1/portugal/utensil_wooden-spoon.jpg",
+        "almofariz": "https://storage.googleapis.com/image-transcreation/part1/portugal/utensil_almofariz.jpg",
+        "black-pottery-of-bisalhães": "https://storage.googleapis.com/image-transcreation/part1/portugal/utensil_black-pottery-of-bisalhães.jpg"
+    },
+    "sport": {
+        "roller-hockey": "https://storage.googleapis.com/image-transcreation/part1/portugal/sport_roller-hockey.jpg",
+        "handball": "https://storage.googleapis.com/image-transcreation/part1/portugal/sport_handball.jpg",
+        "association-football": "https://storage.googleapis.com/image-transcreation/part1/portugal/sport_association-football.jpg",
+        "canoeing": "https://storage.googleapis.com/image-transcreation/part1/portugal/sport_canoeing.jpg",
+        "tennis": "https://storage.googleapis.com/image-transcreation/part1/portugal/sport_tennis.jpg"
+    },
+    "celebrations": {
+        "romaria-de-nossa-senhora-d-agonía": "https://storage.googleapis.com/image-transcreation/part1/portugal/celebrations_romaria-de-nossa-senhora-d-agonía.jpg",
+        "carnaval-de-podence": "https://storage.googleapis.com/image-transcreation/part1/portugal/celebrations_carnaval-de-podence.jpg",
+        "noite-branca": "https://storage.googleapis.com/image-transcreation/part1/portugal/celebrations_noite-branca.jpg",
+        "festa-dos-tabuleiros": "https://storage.googleapis.com/image-transcreation/part1/portugal/celebrations_festa-dos-tabuleiros.jpg",
+        "carnaval-de-torres-vedras": "https://storage.googleapis.com/image-transcreation/part1/portugal/celebrations_carnaval-de-torres-vedras.jpg"
+    },
+    "education": {
+        "cartilha-maternal": "https://storage.googleapis.com/image-transcreation/part1/portugal/education_cartilha-maternal.jpg",
+        "queima-das-fitas": "https://storage.googleapis.com/image-transcreation/part1/portugal/education_queima-das-fitas.jpg",
+        "university-of-coimbra": "https://storage.googleapis.com/image-transcreation/part1/portugal/education_university-of-coimbra.jpg",
+        "computer": "https://storage.googleapis.com/image-transcreation/part1/portugal/education_computer.jpg",
+        "blackboard": "https://storage.googleapis.com/image-transcreation/part1/portugal/education_blackboard.jpg"
+    },
+    "music": {
+        "pimba": "https://storage.googleapis.com/image-transcreation/part1/portugal/music_pimba.jpg",
+        "kizomba": "https://storage.googleapis.com/image-transcreation/part1/portugal/music_kizomba.jpg",
+        "cavaquinho": "https://storage.googleapis.com/image-transcreation/part1/portugal/music_cavaquinho.jpg",
+        "fado-de-lisboa": "https://storage.googleapis.com/image-transcreation/part1/portugal/music_fado-de-lisboa.jpg",
+        "cante-alentejano": "https://storage.googleapis.com/image-transcreation/part1/portugal/music_cante-alentejano.jpg"
+    },
+    "visual-arts": {
+        "filigree": "https://storage.googleapis.com/image-transcreation/part1/portugal/visual-arts_filigree.jpg",
+        "azulejo": "https://storage.googleapis.com/image-transcreation/part1/portugal/visual-arts_azulejo.jpg",
+        "bordallo-pinheiro": "https://storage.googleapis.com/image-transcreation/part1/portugal/visual-arts_bordallo-pinheiro.jpg",
+        "escultura": "https://storage.googleapis.com/image-transcreation/part1/portugal/visual-arts_escultura.jpg",
+        "portuguese-pavement": "https://storage.googleapis.com/image-transcreation/part1/portugal/visual-arts_portuguese-pavement.jpg"
+    },
+    "religion": {
+        "nossa-senhora-de-fatima": "https://storage.googleapis.com/image-transcreation/part1/portugal/religion_nossa-senhora-de-fatima.jpg",
+        "christianity": "https://storage.googleapis.com/image-transcreation/part1/portugal/religion_christianity.jpg",
+        "judaísmo": "https://storage.googleapis.com/image-transcreation/part1/portugal/religion_judaísmo.jpg",
+        "orthodoxy": "https://storage.googleapis.com/image-transcreation/part1/portugal/religion_orthodoxy.jpg",
+        "catholic-church": "https://storage.googleapis.com/image-transcreation/part1/portugal/religion_catholic-church.jpg"
+    }
+}

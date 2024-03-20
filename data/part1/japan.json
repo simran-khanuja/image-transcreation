@@ -1,0 +1,121 @@
+{
+    "bird": {
+        "kounotori": "https://storage.googleapis.com/image-transcreation/part1/japan/bird_kounotori.jpg",
+        "japanese-bush-warbler": "https://storage.googleapis.com/image-transcreation/part1/japan/bird_japanese-bush-warbler.jpg",
+        "crow": "https://storage.googleapis.com/image-transcreation/part1/japan/bird_crow.jpg",
+        "kiji": "https://storage.googleapis.com/image-transcreation/part1/japan/bird_kiji.jpg",
+        "house-sparrow": "https://storage.googleapis.com/image-transcreation/part1/japan/bird_house-sparrow.jpg"
+    },
+    "mammal": {
+        "japanese-serow": "https://storage.googleapis.com/image-transcreation/part1/japan/mammal_japanese-serow.jpg",
+        "common-raccoon-dog": "https://storage.googleapis.com/image-transcreation/part1/japan/mammal_common-raccoon-dog.jpg",
+        "ezo-red-fox": "https://storage.googleapis.com/image-transcreation/part1/japan/mammal_ezo-red-fox.jpg",
+        "yezo-sika-deer": "https://storage.googleapis.com/image-transcreation/part1/japan/mammal_yezo-sika-deer.jpg",
+        "japanese-macaque": "https://storage.googleapis.com/image-transcreation/part1/japan/mammal_japanese-macaque.jpg"
+    },
+    "food": {
+        "ramen": "https://storage.googleapis.com/image-transcreation/part1/japan/food_ramen.jpg",
+        "sushi": "https://storage.googleapis.com/image-transcreation/part1/japan/food_sushi.jpg",
+        "mochi": "https://storage.googleapis.com/image-transcreation/part1/japan/food_mochi.jpg",
+        "tempura": "https://storage.googleapis.com/image-transcreation/part1/japan/food_tempura.jpg",
+        "miso-soup": "https://storage.googleapis.com/image-transcreation/part1/japan/food_miso-soup.jpg"
+    },
+    "beverages": {
+        "calpis": "https://storage.googleapis.com/image-transcreation/part1/japan/beverages_calpis.jpg",
+        "yakult": "https://storage.googleapis.com/image-transcreation/part1/japan/beverages_yakult.jpg",
+        "matcha": "https://storage.googleapis.com/image-transcreation/part1/japan/beverages_matcha.jpg",
+        "nihonshu": "https://storage.googleapis.com/image-transcreation/part1/japan/beverages_nihonshu.jpg",
+        "barley-tea": "https://storage.googleapis.com/image-transcreation/part1/japan/beverages_barley-tea.jpg"
+    },
+    "clothing": {
+        "tabi": "https://storage.googleapis.com/image-transcreation/part1/japan/clothing_tabi.jpg",
+        "hanten": "https://storage.googleapis.com/image-transcreation/part1/japan/clothing_hanten.jpg",
+        "hakama": "https://storage.googleapis.com/image-transcreation/part1/japan/clothing_hakama.jpg",
+        "yukata": "https://storage.googleapis.com/image-transcreation/part1/japan/clothing_yukata.jpg",
+        "kimono": "https://storage.googleapis.com/image-transcreation/part1/japan/clothing_kimono.jpg"
+    },
+    "houses": {
+        "buddhist-temples-in-japan": "https://storage.googleapis.com/image-transcreation/part1/japan/houses_buddhist-temples-in-japan.jpg",
+        "minka": "https://storage.googleapis.com/image-transcreation/part1/japan/houses_minka.jpg",
+        "danchi": "https://storage.googleapis.com/image-transcreation/part1/japan/houses_danchi.jpg",
+        "kinkaku-ji": "https://storage.googleapis.com/image-transcreation/part1/japan/houses_kinkaku-ji.jpg",
+        "shinto-shrine": "https://storage.googleapis.com/image-transcreation/part1/japan/houses_shinto-shrine.jpg"
+    },
+    "flower": {
+        "fuji": "https://storage.googleapis.com/image-transcreation/part1/japan/flower_fuji.jpg",
+        "prunus-mume": "https://storage.googleapis.com/image-transcreation/part1/japan/flower_prunus-mume.jpg",
+        "cherry-blossom": "https://storage.googleapis.com/image-transcreation/part1/japan/flower_cherry-blossom.jpg",
+        "chrysanthemum": "https://storage.googleapis.com/image-transcreation/part1/japan/flower_chrysanthemum.jpg",
+        "hydrangea-macrophylla": "https://storage.googleapis.com/image-transcreation/part1/japan/flower_hydrangea-macrophylla.jpg"
+    },
+    "fruit": {
+        "watermelon": "https://storage.googleapis.com/image-transcreation/part1/japan/fruit_watermelon.jpg",
+        "citrus-unshiu": "https://storage.googleapis.com/image-transcreation/part1/japan/fruit_citrus-unshiu.jpg",
+        "peach": "https://storage.googleapis.com/image-transcreation/part1/japan/fruit_peach.jpg",
+        "kyoho": "https://storage.googleapis.com/image-transcreation/part1/japan/fruit_kyoho.jpg",
+        "kaki": "https://storage.googleapis.com/image-transcreation/part1/japan/fruit_kaki.jpg"
+    },
+    "vegetable": {
+        "daikon": "https://storage.googleapis.com/image-transcreation/part1/japan/vegetable_daikon.jpg",
+        "gobo": "https://storage.googleapis.com/image-transcreation/part1/japan/vegetable_gobo.jpg",
+        "wasabi": "https://storage.googleapis.com/image-transcreation/part1/japan/vegetable_wasabi.jpg",
+        "shiitake": "https://storage.googleapis.com/image-transcreation/part1/japan/vegetable_shiitake.jpg",
+        "renkon": "https://storage.googleapis.com/image-transcreation/part1/japan/vegetable_renkon.jpg"
+    },
+    "agriculture": {
+        "pig-farming": "https://storage.googleapis.com/image-transcreation/part1/japan/agriculture_pig-farming.jpg",
+        "poultry-farming": "https://storage.googleapis.com/image-transcreation/part1/japan/agriculture_poultry-farming.jpg",
+        "dairy": "https://storage.googleapis.com/image-transcreation/part1/japan/agriculture_dairy.jpg",
+        "fishery": "https://storage.googleapis.com/image-transcreation/part1/japan/agriculture_fishery.jpg",
+        "稲作": "https://storage.googleapis.com/image-transcreation/part1/japan/agriculture_稲作.jpg"
+    },
+    "utensil": {
+        "ohashi": "https://storage.googleapis.com/image-transcreation/part1/japan/utensil_ohashi.jpg",
+        "mimikaki": "https://storage.googleapis.com/image-transcreation/part1/japan/utensil_mimikaki.jpg",
+        "donabe": "https://storage.googleapis.com/image-transcreation/part1/japan/utensil_donabe.jpg",
+        "suribachi": "https://storage.googleapis.com/image-transcreation/part1/japan/utensil_suribachi.jpg",
+        "chasen": "https://storage.googleapis.com/image-transcreation/part1/japan/utensil_chasen.jpg"
+    },
+    "sport": {
+        "kendō": "https://storage.googleapis.com/image-transcreation/part1/japan/sport_kendō.jpg",
+        "yakyū": "https://storage.googleapis.com/image-transcreation/part1/japan/sport_yakyū.jpg",
+        "sumo": "https://storage.googleapis.com/image-transcreation/part1/japan/sport_sumo.jpg",
+        "judo": "https://storage.googleapis.com/image-transcreation/part1/japan/sport_judo.jpg",
+        "karate": "https://storage.googleapis.com/image-transcreation/part1/japan/sport_karate.jpg"
+    },
+    "celebrations": {
+        "koinobori": "https://storage.googleapis.com/image-transcreation/part1/japan/celebrations_koinobori.jpg",
+        "oshōgatsu": "https://storage.googleapis.com/image-transcreation/part1/japan/celebrations_oshōgatsu.jpg",
+        "coming-of-age-day": "https://storage.googleapis.com/image-transcreation/part1/japan/celebrations_coming-of-age-day.jpg",
+        "tanabata": "https://storage.googleapis.com/image-transcreation/part1/japan/celebrations_tanabata.jpg",
+        "hinamatsuri": "https://storage.googleapis.com/image-transcreation/part1/japan/celebrations_hinamatsuri.jpg"
+    },
+    "education": {
+        "shukudai": "https://storage.googleapis.com/image-transcreation/part1/japan/education_shukudai.jpg",
+        "sotsugyōshiki": "https://storage.googleapis.com/image-transcreation/part1/japan/education_sotsugyōshiki.jpg",
+        "kosha": "https://storage.googleapis.com/image-transcreation/part1/japan/education_kosha.jpg",
+        "vocational-school": "https://storage.googleapis.com/image-transcreation/part1/japan/education_vocational-school.jpg",
+        "kyūshoku": "https://storage.googleapis.com/image-transcreation/part1/japan/education_kyūshoku.jpg"
+    },
+    "music": {
+        "visual-kei": "https://storage.googleapis.com/image-transcreation/part1/japan/music_visual-kei.jpg",
+        "taiko": "https://storage.googleapis.com/image-transcreation/part1/japan/music_taiko.jpg",
+        "shamisen": "https://storage.googleapis.com/image-transcreation/part1/japan/music_shamisen.jpg",
+        "idol": "https://storage.googleapis.com/image-transcreation/part1/japan/music_idol.jpg",
+        "gagaku": "https://storage.googleapis.com/image-transcreation/part1/japan/music_gagaku.jpg"
+    },
+    "visual-arts": {
+        "manga": "https://storage.googleapis.com/image-transcreation/part1/japan/visual-arts_manga.jpg",
+        "ink-wash-painting": "https://storage.googleapis.com/image-transcreation/part1/japan/visual-arts_ink-wash-painting.jpg",
+        "origami": "https://storage.googleapis.com/image-transcreation/part1/japan/visual-arts_origami.jpg",
+        "shodō": "https://storage.googleapis.com/image-transcreation/part1/japan/visual-arts_shodō.jpg",
+        "ukiyo-e": "https://storage.googleapis.com/image-transcreation/part1/japan/visual-arts_ukiyo-e.jpg"
+    },
+    "religion": {
+        "torii": "https://storage.googleapis.com/image-transcreation/part1/japan/religion_torii.jpg",
+        "butsuzō": "https://storage.googleapis.com/image-transcreation/part1/japan/religion_butsuzō.jpg",
+        "soryo": "https://storage.googleapis.com/image-transcreation/part1/japan/religion_soryo.jpg",
+        "tera": "https://storage.googleapis.com/image-transcreation/part1/japan/religion_tera.jpg",
+        "temizuya": "https://storage.googleapis.com/image-transcreation/part1/japan/religion_temizuya.jpg"
+    }
+}

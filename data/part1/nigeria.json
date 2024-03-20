@@ -1,0 +1,121 @@
+{
+    "bird": {
+        "owl": "https://storage.googleapis.com/image-transcreation/part1/nigeria/bird_owl.jpg",
+        "guineafowl": "https://storage.googleapis.com/image-transcreation/part1/nigeria/bird_guineafowl.jpg",
+        "ostrich": "https://storage.googleapis.com/image-transcreation/part1/nigeria/bird_ostrich.jpg",
+        "duck": "https://storage.googleapis.com/image-transcreation/part1/nigeria/bird_duck.jpg",
+        "eagle": "https://storage.googleapis.com/image-transcreation/part1/nigeria/bird_eagle.jpg"
+    },
+    "mammal": {
+        "aardvark": "https://storage.googleapis.com/image-transcreation/part1/nigeria/mammal_aardvark.jpg",
+        "bat": "https://storage.googleapis.com/image-transcreation/part1/nigeria/mammal_bat.jpg",
+        "greater-cane-rat": "https://storage.googleapis.com/image-transcreation/part1/nigeria/mammal_greater-cane-rat.jpg",
+        "african-forest-elephant": "https://storage.googleapis.com/image-transcreation/part1/nigeria/mammal_african-forest-elephant.jpg",
+        "chimpanzee": "https://storage.googleapis.com/image-transcreation/part1/nigeria/mammal_chimpanzee.jpg"
+    },
+    "food": {
+        "amala-and-ewedu": "https://storage.googleapis.com/image-transcreation/part1/nigeria/food_amala-and-ewedu.jpg",
+        "pounded-yam": "https://storage.googleapis.com/image-transcreation/part1/nigeria/food_pounded-yam.jpg",
+        "nigeria-jollof-rice-and-chicken-meat": "https://storage.googleapis.com/image-transcreation/part1/nigeria/food_nigeria-jollof-rice-and-chicken-meat.jpg",
+        "akara": "https://storage.googleapis.com/image-transcreation/part1/nigeria/food_akara.jpg",
+        "egusi-soup-and-poundo": "https://storage.googleapis.com/image-transcreation/part1/nigeria/food_egusi-soup-and-poundo.jpg"
+    },
+    "beverages": {
+        "palm-wine": "https://storage.googleapis.com/image-transcreation/part1/nigeria/beverages_palm-wine.jpg",
+        "roselle-juice": "https://storage.googleapis.com/image-transcreation/part1/nigeria/beverages_roselle-juice.jpg",
+        "kunu": "https://storage.googleapis.com/image-transcreation/part1/nigeria/beverages_kunu.jpg",
+        "chapman": "https://storage.googleapis.com/image-transcreation/part1/nigeria/beverages_chapman.jpg",
+        "zobo": "https://storage.googleapis.com/image-transcreation/part1/nigeria/beverages_zobo.jpg"
+    },
+    "clothing": {
+        "isiagu": "https://storage.googleapis.com/image-transcreation/part1/nigeria/clothing_isiagu.jpg",
+        "wrapper": "https://storage.googleapis.com/image-transcreation/part1/nigeria/clothing_wrapper.jpg",
+        "aso-oke": "https://storage.googleapis.com/image-transcreation/part1/nigeria/clothing_aso-oke.jpg",
+        "agbada": "https://storage.googleapis.com/image-transcreation/part1/nigeria/clothing_agbada.jpg",
+        "boubou": "https://storage.googleapis.com/image-transcreation/part1/nigeria/clothing_boubou.jpg"
+    },
+    "houses": {
+        "koutammakou": "https://storage.googleapis.com/image-transcreation/part1/nigeria/houses_koutammakou.jpg",
+        "aso-villa": "https://storage.googleapis.com/image-transcreation/part1/nigeria/houses_aso-villa.jpg",
+        "yoruba-architecture": "https://storage.googleapis.com/image-transcreation/part1/nigeria/houses_yoruba-architecture.jpg",
+        "igbo-architecture": "https://storage.googleapis.com/image-transcreation/part1/nigeria/houses_igbo-architecture.jpg",
+        "residential-estate": "https://storage.googleapis.com/image-transcreation/part1/nigeria/houses_residential-estate.jpg"
+    },
+    "flower": {
+        "aloe-vera": "https://storage.googleapis.com/image-transcreation/part1/nigeria/flower_aloe-vera.jpg",
+        "hibiscus": "https://storage.googleapis.com/image-transcreation/part1/nigeria/flower_hibiscus.jpg",
+        "ixora": "https://storage.googleapis.com/image-transcreation/part1/nigeria/flower_ixora.jpg",
+        "royal-poinciana": "https://storage.googleapis.com/image-transcreation/part1/nigeria/flower_royal-poinciana.jpg",
+        "orchid": "https://storage.googleapis.com/image-transcreation/part1/nigeria/flower_orchid.jpg"
+    },
+    "fruit": {
+        "banana": "https://storage.googleapis.com/image-transcreation/part1/nigeria/fruit_banana.jpg",
+        "pineapple": "https://storage.googleapis.com/image-transcreation/part1/nigeria/fruit_pineapple.jpg",
+        "guava": "https://storage.googleapis.com/image-transcreation/part1/nigeria/fruit_guava.jpg",
+        "udala": "https://storage.googleapis.com/image-transcreation/part1/nigeria/fruit_udala.jpg",
+        "mango": "https://storage.googleapis.com/image-transcreation/part1/nigeria/fruit_mango.jpg"
+    },
+    "vegetable": {
+        "garden-egg": "https://storage.googleapis.com/image-transcreation/part1/nigeria/vegetable_garden-egg.jpg",
+        "okra": "https://storage.googleapis.com/image-transcreation/part1/nigeria/vegetable_okra.jpg",
+        "cabbage": "https://storage.googleapis.com/image-transcreation/part1/nigeria/vegetable_cabbage.jpg",
+        "carrot": "https://storage.googleapis.com/image-transcreation/part1/nigeria/vegetable_carrot.jpg",
+        "ewedu": "https://storage.googleapis.com/image-transcreation/part1/nigeria/vegetable_ewedu.jpg"
+    },
+    "agriculture": {
+        "poultry-farming": "https://storage.googleapis.com/image-transcreation/part1/nigeria/agriculture_poultry-farming.jpg",
+        "corn-farm": "https://storage.googleapis.com/image-transcreation/part1/nigeria/agriculture_corn-farm.jpg",
+        "cassava": "https://storage.googleapis.com/image-transcreation/part1/nigeria/agriculture_cassava.jpg",
+        "cocoa": "https://storage.googleapis.com/image-transcreation/part1/nigeria/agriculture_cocoa.jpg",
+        "fish-farming": "https://storage.googleapis.com/image-transcreation/part1/nigeria/agriculture_fish-farming.jpg"
+    },
+    "utensil": {
+        "mortar-and-pestle": "https://storage.googleapis.com/image-transcreation/part1/nigeria/utensil_mortar-and-pestle.jpg",
+        "sieve": "https://storage.googleapis.com/image-transcreation/part1/nigeria/utensil_sieve.jpg",
+        "knife": "https://storage.googleapis.com/image-transcreation/part1/nigeria/utensil_knife.jpg",
+        "cutting-board": "https://storage.googleapis.com/image-transcreation/part1/nigeria/utensil_cutting-board.jpg",
+        "meat-grinder": "https://storage.googleapis.com/image-transcreation/part1/nigeria/utensil_meat-grinder.jpg"
+    },
+    "sport": {
+        "running": "https://storage.googleapis.com/image-transcreation/part1/nigeria/sport_running.jpg",
+        "volleyball": "https://storage.googleapis.com/image-transcreation/part1/nigeria/sport_volleyball.jpg",
+        "basketball": "https://storage.googleapis.com/image-transcreation/part1/nigeria/sport_basketball.jpg",
+        "football": "https://storage.googleapis.com/image-transcreation/part1/nigeria/sport_football.jpg",
+        "boxing": "https://storage.googleapis.com/image-transcreation/part1/nigeria/sport_boxing.jpg"
+    },
+    "celebrations": {
+        "eyo-festival": "https://storage.googleapis.com/image-transcreation/part1/nigeria/celebrations_eyo-festival.jpg",
+        "durbar-festival": "https://storage.googleapis.com/image-transcreation/part1/nigeria/celebrations_durbar-festival.jpg",
+        "ofala-festival": "https://storage.googleapis.com/image-transcreation/part1/nigeria/celebrations_ofala-festival.jpg",
+        "new-yam-festival": "https://storage.googleapis.com/image-transcreation/part1/nigeria/celebrations_new-yam-festival.jpg",
+        "independence-day-celebration": "https://storage.googleapis.com/image-transcreation/part1/nigeria/celebrations_independence-day-celebration.jpg"
+    },
+    "education": {
+        "igbo-apprentice-system": "https://storage.googleapis.com/image-transcreation/part1/nigeria/education_igbo-apprentice-system.jpg",
+        "morning-assembly-at-a-primary-school": "https://storage.googleapis.com/image-transcreation/part1/nigeria/education_morning-assembly-at-a-primary-school.jpg",
+        "university-of-port-harcourt": "https://storage.googleapis.com/image-transcreation/part1/nigeria/education_university-of-port-harcourt.jpg",
+        "university-of-abuja": "https://storage.googleapis.com/image-transcreation/part1/nigeria/education_university-of-abuja.jpg",
+        "computer-classes": "https://storage.googleapis.com/image-transcreation/part1/nigeria/education_computer-classes.jpg"
+    },
+    "music": {
+        "jazz": "https://storage.googleapis.com/image-transcreation/part1/nigeria/music_jazz.jpg",
+        "talking-drum": "https://storage.googleapis.com/image-transcreation/part1/nigeria/music_talking-drum.jpg",
+        "cultural-dance-troupe": "https://storage.googleapis.com/image-transcreation/part1/nigeria/music_cultural-dance-troupe.jpg",
+        "afrobeat": "https://storage.googleapis.com/image-transcreation/part1/nigeria/music_afrobeat.jpg",
+        "traditional-flute-player": "https://storage.googleapis.com/image-transcreation/part1/nigeria/music_traditional-flute-player.jpg"
+    },
+    "visual-arts": {
+        "pottery": "https://storage.googleapis.com/image-transcreation/part1/nigeria/visual-arts_pottery.jpg",
+        "igbo-art": "https://storage.googleapis.com/image-transcreation/part1/nigeria/visual-arts_igbo-art.jpg",
+        "glass-art": "https://storage.googleapis.com/image-transcreation/part1/nigeria/visual-arts_glass-art.jpg",
+        "painting": "https://storage.googleapis.com/image-transcreation/part1/nigeria/visual-arts_painting.jpg",
+        "bronze-work": "https://storage.googleapis.com/image-transcreation/part1/nigeria/visual-arts_bronze-work.jpg"
+    },
+    "religion": {
+        "islam": "https://storage.googleapis.com/image-transcreation/part1/nigeria/religion_islam.jpg",
+        "baháʼí-faith-in-nigeria": "https://storage.googleapis.com/image-transcreation/part1/nigeria/religion_baháʼí-faith-in-nigeria.jpg",
+        "dibia": "https://storage.googleapis.com/image-transcreation/part1/nigeria/religion_dibia.jpg",
+        "hinduism-in-nigeria": "https://storage.googleapis.com/image-transcreation/part1/nigeria/religion_hinduism-in-nigeria.jpg",
+        "christianity": "https://storage.googleapis.com/image-transcreation/part1/nigeria/religion_christianity.jpg"
+    }
+}

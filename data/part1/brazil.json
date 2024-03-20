@@ -1,0 +1,121 @@
+{
+    "bird": {
+        "arara": "https://storage.googleapis.com/image-transcreation/part1/brazil/bird_arara.jpg",
+        "green-headed-tanager": "https://storage.googleapis.com/image-transcreation/part1/brazil/bird_green-headed-tanager.jpg",
+        "tucano": "https://storage.googleapis.com/image-transcreation/part1/brazil/bird_tucano.jpg",
+        "sabiá-laranjeira": "https://storage.googleapis.com/image-transcreation/part1/brazil/bird_sabiá-laranjeira.jpg",
+        "great-kiskadee": "https://storage.googleapis.com/image-transcreation/part1/brazil/bird_great-kiskadee.jpg"
+    },
+    "mammal": {
+        "jaguar": "https://storage.googleapis.com/image-transcreation/part1/brazil/mammal_jaguar.jpg",
+        "muriqui": "https://storage.googleapis.com/image-transcreation/part1/brazil/mammal_muriqui.jpg",
+        "capybara": "https://storage.googleapis.com/image-transcreation/part1/brazil/mammal_capybara.jpg",
+        "giant-anteater": "https://storage.googleapis.com/image-transcreation/part1/brazil/mammal_giant-anteater.jpg",
+        "maned-wolf": "https://storage.googleapis.com/image-transcreation/part1/brazil/mammal_maned-wolf.jpg"
+    },
+    "food": {
+        "churrasco": "https://storage.googleapis.com/image-transcreation/part1/brazil/food_churrasco.jpg",
+        "brigadeiro": "https://storage.googleapis.com/image-transcreation/part1/brazil/food_brigadeiro.jpg",
+        "pão-de-queijo": "https://storage.googleapis.com/image-transcreation/part1/brazil/food_pão-de-queijo.jpg",
+        "coxinha": "https://storage.googleapis.com/image-transcreation/part1/brazil/food_coxinha.jpg",
+        "feijoada": "https://storage.googleapis.com/image-transcreation/part1/brazil/food_feijoada.jpg"
+    },
+    "beverages": {
+        "mate": "https://storage.googleapis.com/image-transcreation/part1/brazil/beverages_mate.jpg",
+        "coconut-water": "https://storage.googleapis.com/image-transcreation/part1/brazil/beverages_coconut-water.jpg",
+        "cachaça": "https://storage.googleapis.com/image-transcreation/part1/brazil/beverages_cachaça.jpg",
+        "sugarcane-juice": "https://storage.googleapis.com/image-transcreation/part1/brazil/beverages_sugarcane-juice.jpg",
+        "caipirinha": "https://storage.googleapis.com/image-transcreation/part1/brazil/beverages_caipirinha.jpg"
+    },
+    "clothing": {
+        "havaianas": "https://storage.googleapis.com/image-transcreation/part1/brazil/clothing_havaianas.jpg",
+        "sleeveless-shirt": "https://storage.googleapis.com/image-transcreation/part1/brazil/clothing_sleeveless-shirt.jpg",
+        "shorts": "https://storage.googleapis.com/image-transcreation/part1/brazil/clothing_shorts.jpg",
+        "flip-flops": "https://storage.googleapis.com/image-transcreation/part1/brazil/clothing_flip-flops.jpg",
+        "bikini": "https://storage.googleapis.com/image-transcreation/part1/brazil/clothing_bikini.jpg"
+    },
+    "houses": {
+        "casas-bahia": "https://storage.googleapis.com/image-transcreation/part1/brazil/houses_casas-bahia.jpg",
+        "palafita": "https://storage.googleapis.com/image-transcreation/part1/brazil/houses_palafita.jpg",
+        "sobrado": "https://storage.googleapis.com/image-transcreation/part1/brazil/houses_sobrado.jpg",
+        "favela": "https://storage.googleapis.com/image-transcreation/part1/brazil/houses_favela.jpg",
+        "colonial-architecture-of-brazil": "https://storage.googleapis.com/image-transcreation/part1/brazil/houses_colonial-architecture-of-brazil.jpg"
+    },
+    "flower": {
+        "jacaranda": "https://storage.googleapis.com/image-transcreation/part1/brazil/flower_jacaranda.jpg",
+        "heliconia": "https://storage.googleapis.com/image-transcreation/part1/brazil/flower_heliconia.jpg",
+        "cattleya": "https://storage.googleapis.com/image-transcreation/part1/brazil/flower_cattleya.jpg",
+        "bromelia": "https://storage.googleapis.com/image-transcreation/part1/brazil/flower_bromelia.jpg",
+        "handroanthus": "https://storage.googleapis.com/image-transcreation/part1/brazil/flower_handroanthus.jpg"
+    },
+    "fruit": {
+        "pineapple": "https://storage.googleapis.com/image-transcreation/part1/brazil/fruit_pineapple.jpg",
+        "mango": "https://storage.googleapis.com/image-transcreation/part1/brazil/fruit_mango.jpg",
+        "guava": "https://storage.googleapis.com/image-transcreation/part1/brazil/fruit_guava.jpg",
+        "papaya": "https://storage.googleapis.com/image-transcreation/part1/brazil/fruit_papaya.jpg",
+        "jabuticaba": "https://storage.googleapis.com/image-transcreation/part1/brazil/fruit_jabuticaba.jpg"
+    },
+    "vegetable": {
+        "pumpkin": "https://storage.googleapis.com/image-transcreation/part1/brazil/vegetable_pumpkin.jpg",
+        "potato": "https://storage.googleapis.com/image-transcreation/part1/brazil/vegetable_potato.jpg",
+        "cassava": "https://storage.googleapis.com/image-transcreation/part1/brazil/vegetable_cassava.jpg",
+        "yam": "https://storage.googleapis.com/image-transcreation/part1/brazil/vegetable_yam.jpg",
+        "okra": "https://storage.googleapis.com/image-transcreation/part1/brazil/vegetable_okra.jpg"
+    },
+    "agriculture": {
+        "soybean": "https://storage.googleapis.com/image-transcreation/part1/brazil/agriculture_soybean.jpg",
+        "coffee": "https://storage.googleapis.com/image-transcreation/part1/brazil/agriculture_coffee.jpg",
+        "maize": "https://storage.googleapis.com/image-transcreation/part1/brazil/agriculture_maize.jpg",
+        "livestock": "https://storage.googleapis.com/image-transcreation/part1/brazil/agriculture_livestock.jpg",
+        "sugarcane": "https://storage.googleapis.com/image-transcreation/part1/brazil/agriculture_sugarcane.jpg"
+    },
+    "utensil": {
+        "wooden-spoon": "https://storage.googleapis.com/image-transcreation/part1/brazil/utensil_wooden-spoon.jpg",
+        "barbecue-grill": "https://storage.googleapis.com/image-transcreation/part1/brazil/utensil_barbecue-grill.jpg",
+        "mortar-and-pestle": "https://storage.googleapis.com/image-transcreation/part1/brazil/utensil_mortar-and-pestle.jpg",
+        "pressure-cooking": "https://storage.googleapis.com/image-transcreation/part1/brazil/utensil_pressure-cooking.jpg",
+        "squeegee": "https://storage.googleapis.com/image-transcreation/part1/brazil/utensil_squeegee.jpg"
+    },
+    "sport": {
+        "volleyball": "https://storage.googleapis.com/image-transcreation/part1/brazil/sport_volleyball.jpg",
+        "futsal": "https://storage.googleapis.com/image-transcreation/part1/brazil/sport_futsal.jpg",
+        "association-football": "https://storage.googleapis.com/image-transcreation/part1/brazil/sport_association-football.jpg",
+        "brazilian-jiu-jitsu": "https://storage.googleapis.com/image-transcreation/part1/brazil/sport_brazilian-jiu-jitsu.jpg",
+        "capoeira": "https://storage.googleapis.com/image-transcreation/part1/brazil/sport_capoeira.jpg"
+    },
+    "celebrations": {
+        "festa-junina": "https://storage.googleapis.com/image-transcreation/part1/brazil/celebrations_festa-junina.jpg",
+        "brazilian-carnival": "https://storage.googleapis.com/image-transcreation/part1/brazil/celebrations_brazilian-carnival.jpg",
+        "congada": "https://storage.googleapis.com/image-transcreation/part1/brazil/celebrations_congada.jpg",
+        "independence-day": "https://storage.googleapis.com/image-transcreation/part1/brazil/celebrations_independence-day.jpg",
+        "new-years-eve": "https://storage.googleapis.com/image-transcreation/part1/brazil/celebrations_new-years-eve.jpg"
+    },
+    "education": {
+        "whiteboard": "https://storage.googleapis.com/image-transcreation/part1/brazil/education_whiteboard.jpg",
+        "federal-university-of-rio-de-janeiro": "https://storage.googleapis.com/image-transcreation/part1/brazil/education_federal-university-of-rio-de-janeiro.jpg",
+        "national-high-school-exam": "https://storage.googleapis.com/image-transcreation/part1/brazil/education_national-high-school-exam.jpg",
+        "kwl-table": "https://storage.googleapis.com/image-transcreation/part1/brazil/education_kwl-table.jpg",
+        "escola": "https://storage.googleapis.com/image-transcreation/part1/brazil/education_escola.jpg"
+    },
+    "music": {
+        "música-popular-brasileira": "https://storage.googleapis.com/image-transcreation/part1/brazil/music_música-popular-brasileira.jpg",
+        "frevo": "https://storage.googleapis.com/image-transcreation/part1/brazil/music_frevo.jpg",
+        "bossa-nova": "https://storage.googleapis.com/image-transcreation/part1/brazil/music_bossa-nova.jpg",
+        "forró": "https://storage.googleapis.com/image-transcreation/part1/brazil/music_forró.jpg",
+        "samba": "https://storage.googleapis.com/image-transcreation/part1/brazil/music_samba.jpg"
+    },
+    "visual-arts": {
+        "graffiti": "https://storage.googleapis.com/image-transcreation/part1/brazil/visual-arts_graffiti.jpg",
+        "modernism-in-brazil": "https://storage.googleapis.com/image-transcreation/part1/brazil/visual-arts_modernism-in-brazil.jpg",
+        "tropicália": "https://storage.googleapis.com/image-transcreation/part1/brazil/visual-arts_tropicália.jpg",
+        "barroco-no-brasil": "https://storage.googleapis.com/image-transcreation/part1/brazil/visual-arts_barroco-no-brasil.jpg",
+        "brazilian-street-art": "https://storage.googleapis.com/image-transcreation/part1/brazil/visual-arts_brazilian-street-art.jpg"
+    },
+    "religion": {
+        "catholic-church": "https://storage.googleapis.com/image-transcreation/part1/brazil/religion_catholic-church.jpg",
+        "candomblé": "https://storage.googleapis.com/image-transcreation/part1/brazil/religion_candomblé.jpg",
+        "protestantism-in-brazil": "https://storage.googleapis.com/image-transcreation/part1/brazil/religion_protestantism-in-brazil.jpg",
+        "kardecist-spiritism": "https://storage.googleapis.com/image-transcreation/part1/brazil/religion_kardecist-spiritism.jpg",
+        "umbanda": "https://storage.googleapis.com/image-transcreation/part1/brazil/religion_umbanda.jpg"
+    }
+}

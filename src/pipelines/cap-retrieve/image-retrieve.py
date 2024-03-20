@@ -8,48 +8,57 @@ import logging
 import argparse
 import yaml
 import pandas as pd
+from PIL import Image
 
 def download_image(image_url, folder_path, file_name=None):
     """
     Downloads an image from a given URL and saves it to a specified folder.
+    Includes checks for content type, validity of the image, file size, and retry mechanism.
 
     :param image_url: URL of the image to download
     :param folder_path: Path to the folder where the image will be saved
     :param file_name: Name of the file (optional). If not provided, it will be derived from the URL.
     """
-    # If file_name is not specified, extract it from the URL
     try:
         if not file_name:
             file_name = image_url.split('/')[-1]
-
+        
         # Ensure folder exists
         Path(folder_path).mkdir(parents=True, exist_ok=True)
-
-        # Get the image content
-        response = requests.get(image_url, timeout=60)
-        response.raise_for_status()  # Raise an exception for HTTP errors
-
-        # Save the image
-        with open(Path(folder_path) / file_name, 'wb') as file:
-            file.write(response.content)
-        logging.info(f"Image saved as {Path(folder_path) / file_name}")
-
-        file_path = Path(folder_path) / file_name
-        file_size = os.stat(file_path).st_size
-
-        # return error if image is meaningless
-        if file_size < 8192:
-            logging.info(f"Image saved is null or suspiciously small (size: {file_size} bytes)")
+        response = requests.get(image_url, timeout=120)
+        if response.status_code == 200 and response.headers['Content-Type'].startswith('image'):
+            # Save the image
+            file_path = Path(folder_path) / file_name
+            with open(file_path, 'wb') as file:
+                file.write(response.content)
+                
+            # Check for minimal file size (10KB)
+            if file_path.stat().st_size < 10240:
+                logging.info(f"Image saved is null or suspiciously small (size: {file_path.stat().st_size} bytes)")
+                file_path.unlink()  # Remove the small file
+                return "error"
+                
+            # Check if the image is valid
+            try:
+                with Image.open(file_path) as img:
+                    img.verify()  # Verify that it is, in fact, an image
+            except Exception as e:
+                logging.info(f"Invalid image file: {e}")
+                file_path.unlink()  # Remove the corrupted file
+                return "error"
+            
+            logging.info(f"Image saved as {file_path}")
+            return "success"
+        else:
+            logging.info(f"Invalid response")
             return "error"
-
-        return "success"
-    
     except requests.RequestException as e:
         logging.info(f"Error downloading the image: {e}")
         return "error"
     except IOError as e:
         logging.info(f"Error saving the image: {e}")
         return "error"
+
 
 def main():
     # set up logging
@@ -66,9 +75,18 @@ def main():
     # read in the metadata file
     data = pd.read_csv(config["metadata_path"])
 
-    src_image_paths = data[config["src_image_path_col"]].tolist()
+    src_image_paths_original = data[config["src_image_path_col"]].tolist()
     blip_captions = data[config["caption_col"]].tolist()
     llm_edits = data[config["llm_edit_col"]].tolist()
+    src_countries = data[config["src_country_col"]].tolist()
+
+    src_image_paths = src_image_paths_original.copy()
+    # Add src_country to the src_image_path
+    for i in range(len(src_image_paths)):
+        src_country = src_countries[i]
+        src_image_path_basename = src_image_paths[i].split("/")[-1]
+        src_image_paths[i] = src_image_paths[i].replace(src_image_path_basename, src_country + "_" + src_image_path_basename)
+
 
     # setup clip options
     clip_options = ClipOptions(
@@ -98,14 +116,15 @@ def main():
     for prompt, src_image_path in zip(llm_edits, src_image_paths):
         logging.info(prompt)
 
+        # get basename of the image and append country to the basename
         captions[src_image_path] = []
         image_paths[src_image_path] = []
         
         results = knn_service.query(text_input=prompt,
                                     modality="image", 
                                     indice_name=config["indice_name"], 
-                                    num_images=50, 
-                                    num_result_ids=50,
+                                    num_images=250, 
+                                    num_result_ids=250,
                                     deduplicate=True)
         
         for result in results:
@@ -143,9 +162,9 @@ def main():
     os.makedirs("/".join(output_dir), exist_ok=True)
     with open(config["output_file"], 'w') as file:
         file.write("src_image_path,tgt_image_path,caption,llm_edit,retrieved_caption\n")
-        for src_image in captions:
+        for src_image, original_path in zip(captions, src_image_paths_original):
             logging.info(src_image)
-            logging.info(image_urls[src_image])
+            flag = False
             if len(image_urls[src_image]) == 0:
                 logging.info("No image found for: " + src_image)
                 continue
@@ -156,10 +175,17 @@ def main():
                 if status == "error":
                     continue
                 else:
+                    flag = True
                     break
+            if not flag:
+                logging.info("No image found for: " + src_image)
+                logging.info(len(image_urls[src_image]))
+                continue
             idx = image_urls[src_image].index(url)
             retrieved_caption = retrieved_captions[src_image][idx].replace("\"", "'")
-            file.write(src_image + "," + tgt_image_path + ",\"" + blip_captions[src_image_paths.index(src_image)] + "\",\"" + llm_edits[src_image_paths.index(src_image)] + "\",\"" + retrieved_caption + "\"\n")
+            retrieved_caption = retrieved_caption.replace(",", ";")
+
+            file.write(original_path + "," + tgt_image_path + ",\"" + blip_captions[src_image_paths.index(src_image)] + "\",\"" + llm_edits[src_image_paths.index(src_image)] + "\",\"" + retrieved_caption + "\"\n")
 
 
 if __name__ == "__main__":

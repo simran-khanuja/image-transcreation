@@ -1,0 +1,121 @@
+{
+    "bird": {
+        "gull": "https://storage.googleapis.com/image-transcreation/part1/turkey/bird_gull.jpg",
+        "crow": "https://storage.googleapis.com/image-transcreation/part1/turkey/bird_crow.jpg",
+        "greater-flamingo": "https://storage.googleapis.com/image-transcreation/part1/turkey/bird_greater-flamingo.jpg",
+        "mallard": "https://storage.googleapis.com/image-transcreation/part1/turkey/bird_mallard.jpg",
+        "domestic-pigeon": "https://storage.googleapis.com/image-transcreation/part1/turkey/bird_domestic-pigeon.jpg"
+    },
+    "mammal": {
+        "red-fox": "https://storage.googleapis.com/image-transcreation/part1/turkey/mammal_red-fox.jpg",
+        "angora-goat": "https://storage.googleapis.com/image-transcreation/part1/turkey/mammal_angora-goat.jpg",
+        "kangal-shepherd-dog": "https://storage.googleapis.com/image-transcreation/part1/turkey/mammal_kangal-shepherd-dog.jpg",
+        "angora-cat": "https://storage.googleapis.com/image-transcreation/part1/turkey/mammal_angora-cat.jpg",
+        "roe-deer": "https://storage.googleapis.com/image-transcreation/part1/turkey/mammal_roe-deer.jpg"
+    },
+    "food": {
+        "börek": "https://storage.googleapis.com/image-transcreation/part1/turkey/food_börek.jpg",
+        "simit": "https://storage.googleapis.com/image-transcreation/part1/turkey/food_simit.jpg",
+        "baklava": "https://storage.googleapis.com/image-transcreation/part1/turkey/food_baklava.jpg",
+        "kebab": "https://storage.googleapis.com/image-transcreation/part1/turkey/food_kebab.jpg",
+        "i̇çli-pide": "https://storage.googleapis.com/image-transcreation/part1/turkey/food_i̇çli-pide.jpg"
+    },
+    "beverages": {
+        "rakı": "https://storage.googleapis.com/image-transcreation/part1/turkey/beverages_rakı.jpg",
+        "turnip-water": "https://storage.googleapis.com/image-transcreation/part1/turkey/beverages_turnip-water.jpg",
+        "boza": "https://storage.googleapis.com/image-transcreation/part1/turkey/beverages_boza.jpg",
+        "turkish-coffee": "https://storage.googleapis.com/image-transcreation/part1/turkey/beverages_turkish-coffee.jpg",
+        "ayran": "https://storage.googleapis.com/image-transcreation/part1/turkey/beverages_ayran.jpg"
+    },
+    "clothing": {
+        "yelek": "https://storage.googleapis.com/image-transcreation/part1/turkey/clothing_yelek.jpg",
+        "turkish-salvar": "https://storage.googleapis.com/image-transcreation/part1/turkey/clothing_turkish-salvar.jpg",
+        "kaftan": "https://storage.googleapis.com/image-transcreation/part1/turkey/clothing_kaftan.jpg",
+        "fez": "https://storage.googleapis.com/image-transcreation/part1/turkey/clothing_fez.jpg",
+        "tesettür": "https://storage.googleapis.com/image-transcreation/part1/turkey/clothing_tesettür.jpg"
+    },
+    "houses": {
+        "mosque": "https://storage.googleapis.com/image-transcreation/part1/turkey/houses_mosque.jpg",
+        "konak": "https://storage.googleapis.com/image-transcreation/part1/turkey/houses_konak.jpg",
+        "apartment": "https://storage.googleapis.com/image-transcreation/part1/turkey/houses_apartment.jpg",
+        "villa": "https://storage.googleapis.com/image-transcreation/part1/turkey/houses_villa.jpg",
+        "yalı": "https://storage.googleapis.com/image-transcreation/part1/turkey/houses_yalı.jpg"
+    },
+    "flower": {
+        "rose": "https://storage.googleapis.com/image-transcreation/part1/turkey/flower_rose.jpg",
+        "tulip": "https://storage.googleapis.com/image-transcreation/part1/turkey/flower_tulip.jpg",
+        "bellis-perennis": "https://storage.googleapis.com/image-transcreation/part1/turkey/flower_bellis-perennis.jpg",
+        "hyacinth": "https://storage.googleapis.com/image-transcreation/part1/turkey/flower_hyacinth.jpg",
+        "begonia": "https://storage.googleapis.com/image-transcreation/part1/turkey/flower_begonia.jpg"
+    },
+    "fruit": {
+        "watermelon": "https://storage.googleapis.com/image-transcreation/part1/turkey/fruit_watermelon.jpg",
+        "cherry": "https://storage.googleapis.com/image-transcreation/part1/turkey/fruit_cherry.jpg",
+        "apple": "https://storage.googleapis.com/image-transcreation/part1/turkey/fruit_apple.jpg",
+        "fig": "https://storage.googleapis.com/image-transcreation/part1/turkey/fruit_fig.jpg",
+        "plum": "https://storage.googleapis.com/image-transcreation/part1/turkey/fruit_plum.jpg"
+    },
+    "vegetable": {
+        "green-bean": "https://storage.googleapis.com/image-transcreation/part1/turkey/vegetable_green-bean.jpg",
+        "cucumber": "https://storage.googleapis.com/image-transcreation/part1/turkey/vegetable_cucumber.jpg",
+        "zucchini": "https://storage.googleapis.com/image-transcreation/part1/turkey/vegetable_zucchini.jpg",
+        "eggplant": "https://storage.googleapis.com/image-transcreation/part1/turkey/vegetable_eggplant.jpg",
+        "tomato": "https://storage.googleapis.com/image-transcreation/part1/turkey/vegetable_tomato.jpg"
+    },
+    "agriculture": {
+        "tobacco-farming": "https://storage.googleapis.com/image-transcreation/part1/turkey/agriculture_tobacco-farming.jpg",
+        "olive": "https://storage.googleapis.com/image-transcreation/part1/turkey/agriculture_olive.jpg",
+        "hazelnut-production-in-turkey": "https://storage.googleapis.com/image-transcreation/part1/turkey/agriculture_hazelnut-production-in-turkey.jpg",
+        "wheat": "https://storage.googleapis.com/image-transcreation/part1/turkey/agriculture_wheat.jpg",
+        "greenhouse": "https://storage.googleapis.com/image-transcreation/part1/turkey/agriculture_greenhouse.jpg"
+    },
+    "utensil": {
+        "peşkir": "https://storage.googleapis.com/image-transcreation/part1/turkey/utensil_peşkir.jpg",
+        "cezve": "https://storage.googleapis.com/image-transcreation/part1/turkey/utensil_cezve.jpg",
+        "sieve": "https://storage.googleapis.com/image-transcreation/part1/turkey/utensil_sieve.jpg",
+        "hammer": "https://storage.googleapis.com/image-transcreation/part1/turkey/utensil_hammer.jpg",
+        "drill": "https://storage.googleapis.com/image-transcreation/part1/turkey/utensil_drill.jpg"
+    },
+    "sport": {
+        "football": "https://storage.googleapis.com/image-transcreation/part1/turkey/sport_football.jpg",
+        "volleyball": "https://storage.googleapis.com/image-transcreation/part1/turkey/sport_volleyball.jpg",
+        "basketball": "https://storage.googleapis.com/image-transcreation/part1/turkey/sport_basketball.jpg",
+        "wrestling": "https://storage.googleapis.com/image-transcreation/part1/turkey/sport_wrestling.jpg",
+        "tennis": "https://storage.googleapis.com/image-transcreation/part1/turkey/sport_tennis.jpg"
+    },
+    "celebrations": {
+        "national-sovereignty-and-childrens-day": "https://storage.googleapis.com/image-transcreation/part1/turkey/celebrations_national-sovereignty-and-childrens-day.jpg",
+        "eid-al-adha": "https://storage.googleapis.com/image-transcreation/part1/turkey/celebrations_eid-al-adha.jpg",
+        "commemoration-of-atatürk-youth-and-sports-day": "https://storage.googleapis.com/image-transcreation/part1/turkey/celebrations_commemoration-of-atatürk-youth-and-sports-day.jpg",
+        "republic-day": "https://storage.googleapis.com/image-transcreation/part1/turkey/celebrations_republic-day.jpg",
+        "ramadan": "https://storage.googleapis.com/image-transcreation/part1/turkey/celebrations_ramadan.jpg"
+    },
+    "education": {
+        "karma-eğitim": "https://storage.googleapis.com/image-transcreation/part1/turkey/education_karma-eğitim.jpg",
+        "quran-course": "https://storage.googleapis.com/image-transcreation/part1/turkey/education_quran-course.jpg",
+        "imam-hatip-high-school": "https://storage.googleapis.com/image-transcreation/part1/turkey/education_imam-hatip-high-school.jpg",
+        "boğaziçi-university": "https://storage.googleapis.com/image-transcreation/part1/turkey/education_boğaziçi-university.jpg",
+        "cram-school": "https://storage.googleapis.com/image-transcreation/part1/turkey/education_cram-school.jpg"
+    },
+    "music": {
+        "baglama": "https://storage.googleapis.com/image-transcreation/part1/turkey/music_baglama.jpg",
+        "qanun": "https://storage.googleapis.com/image-transcreation/part1/turkey/music_qanun.jpg",
+        "ottoman-music": "https://storage.googleapis.com/image-transcreation/part1/turkey/music_ottoman-music.jpg",
+        "anatolian-rock": "https://storage.googleapis.com/image-transcreation/part1/turkey/music_anatolian-rock.jpg",
+        "arabesque": "https://storage.googleapis.com/image-transcreation/part1/turkey/music_arabesque.jpg"
+    },
+    "visual-arts": {
+        "calligraphy": "https://storage.googleapis.com/image-transcreation/part1/turkey/visual-arts_calligraphy.jpg",
+        "paper-marbling": "https://storage.googleapis.com/image-transcreation/part1/turkey/visual-arts_paper-marbling.jpg",
+        "anatolian-rug": "https://storage.googleapis.com/image-transcreation/part1/turkey/visual-arts_anatolian-rug.jpg",
+        "graffiti": "https://storage.googleapis.com/image-transcreation/part1/turkey/visual-arts_graffiti.jpg",
+        "ottoman-miniature": "https://storage.googleapis.com/image-transcreation/part1/turkey/visual-arts_ottoman-miniature.jpg"
+    },
+    "religion": {
+        "turbe": "https://storage.googleapis.com/image-transcreation/part1/turkey/religion_turbe.jpg",
+        "christianity": "https://storage.googleapis.com/image-transcreation/part1/turkey/religion_christianity.jpg",
+        "islam": "https://storage.googleapis.com/image-transcreation/part1/turkey/religion_islam.jpg",
+        "deism": "https://storage.googleapis.com/image-transcreation/part1/turkey/religion_deism.jpg",
+        "alevism": "https://storage.googleapis.com/image-transcreation/part1/turkey/religion_alevism.jpg"
+    }
+}
