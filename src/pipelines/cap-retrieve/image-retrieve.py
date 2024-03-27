@@ -58,6 +58,10 @@ def download_image(image_url, folder_path, file_name=None):
     except IOError as e:
         logging.info(f"Error saving the image: {e}")
         return "error"
+    # except any other exception
+    except Exception as e:
+        logging.info(f"Error: {e}")
+        return "error"
 
 
 def main():

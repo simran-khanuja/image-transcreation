@@ -3,6 +3,7 @@ import yaml
 import argparse
 import random
 import os
+import json
 
 
 def main():
@@ -31,6 +32,13 @@ def main():
     cap_retrieve_tgt_paths = cap_retrieve_df["tgt_image_path"].tolist()
     # tasks = src_df["task"].tolist()
 
+    # for part2, read in tasks
+    with open("/home/skhanuja/image-translation/data/part2/tasks.json", "r") as f:
+        tasks = json.load(f)
+    
+    tasks_education = tasks["education"]
+    tasks_stories = tasks["stories"]
+
     # create dictionaries of all 3 with src_paths as the keys and tgt_paths as the values
     # task_dict = dict(zip(src_task_paths, tasks))
     e2e_instruct_dict = dict(zip(e2e_instruct_src_paths, e2e_instruct_tgt_paths))
@@ -52,7 +60,7 @@ def main():
             random.shuffle(tgt_paths)
             image_paths.append([src_path, tgt_paths[0], tgt_paths[1], tgt_paths[2]])
     # shuffle the image paths
-    random.shuffle(image_paths)
+    # random.shuffle(image_paths)
     for paths in image_paths:   
         src_path = paths[0]
         image_id = src_path.split("/")[-1].split(".")[0]
@@ -73,7 +81,7 @@ def main():
         os.makedirs(config["metadata_save_path"], exist_ok=True)
     
     # can you make 5 equal splits of the data? make sure all images come in the last split
-    num_splits = 5
+    num_splits = 1
     split_size = len(image_paths) // num_splits
     splits = []
     split_domains = []
@@ -91,7 +99,7 @@ def main():
 
     for i, split in enumerate(splits):
         with open(config["metadata_save_path"]+"/split_"+str(i+1)+".csv", "w") as f:
-            f.write("id,src_image_path,model_path_1,model_path_2,model_path_3,model_1,model_2,model_3\n")
+            f.write("src_image_path,task,model_path_1,model_path_2,model_path_3,model_1,model_2,model_3\n")
             for image_path_list, domain_list in zip(split, split_domains[i]):
                 src_image_path = image_path_list[0]
                 model_path_1 = image_path_list[1]
@@ -100,7 +108,13 @@ def main():
                 model_1 = domain_list[1]
                 model_2 = domain_list[2]
                 model_3 = domain_list[3]
-                f.write(f"{src_image_path},{model_path_1},{model_path_2},{model_path_3},{model_1},{model_2},{model_3}\n")
+                # for part 2, get filename
+                file_basename = src_image_path.split("/")[-1].split(".")[0]
+                if "/education/" in src_image_path:
+                    task = tasks_education[file_basename]
+                elif "/stories/" in src_image_path:
+                    task = tasks_stories[file_basename]
+                f.write(f"{src_image_path},\"{task}\",{model_path_1},{model_path_2},{model_path_3},{model_1},{model_2},{model_3}\n")
         print("Split", i+1, "saved to", config["metadata_save_path"]+"/split_"+str(i+1)+".csv")
     # with open(config["metadata_save_path"]+"/metadata.csv", "w") as f:
     #     f.write("id,src_image_path,model_path_1,model_path_2,model_path_3,model_1,model_2,model_3\n")

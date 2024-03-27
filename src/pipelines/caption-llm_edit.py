@@ -12,6 +12,15 @@ import json
 import requests
 from io import BytesIO
 
+INSTRUCT_PROMPT = {
+    "education": "This image is from a math worksheet titled: TASK. Describe the image such that it talks about details relevant to the task of the worksheet. The output should be ONLY ONE sentence long.",
+    "stories": "This image is from a storybook for children. Caption the image such that it describes details relevant to the story."
+}
+
+LLM_PROMPT = {
+    "education": "The text describes an image in a math worksheet titled: TASK. Hence, make sure the edit preserves the intent of the task in the worksheet. Keep the output text to be of a similar length as the input text. If it is already culturally relevant to Brazil, there is no need to make any edits. The output text must be in English only.\nInput: ", # + generated_text + Output:
+    "stories": "The text describes an image in a storybook for children. Make sure the edit preserves the meaning of the story. Keep the output text to be of a similar length as the input text. If it is already culturally relevant to Brazil, there is no need to make any edits. The output text must be in English only.\nInput: " # + generated_text + Output:"
+}
 
 def download_image(path):
     # check if image is URL and download if yes
@@ -59,7 +68,7 @@ def main():
 
     # Read in config file to get args
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", default="configs/part1/caption-llm_edit/brazil.yaml", help="Path to config file.")
+    parser.add_argument("--config", default="configs/part2/caption-llm_edit/brazil.yaml", help="Path to config file.")
     args = parser.parse_args()
     with open(args.config) as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
@@ -70,7 +79,7 @@ def main():
     if not os.path.exists(config["output_dir"]):
         os.makedirs(config["output_dir"], exist_ok=True)
 
-    # Initialize InstructBlip model
+    # # Initialize InstructBlip model
     processor = InstructBlipProcessor.from_pretrained("Salesforce/instructblip-flan-t5-xxl")
     model = InstructBlipForConditionalGeneration.from_pretrained(
         "Salesforce/instructblip-flan-t5-xxl", load_in_8bit=True, device_map={"": 0}, torch_dtype=torch.bfloat16
@@ -92,17 +101,37 @@ def main():
                 all_source_paths.extend(data[category].values())
                 all_source_countries.extend([country] * len(data[category].values()))
     
+    print(len(all_source_paths))
+    print(len(all_source_countries))
     instructblip_prompts = []
+    llm_prompts = []
     if task_path != '':
-        tasks = json.load(open(task_path)).keys()
-        for task in tasks:
-            instructblip_prompts.append(config["instructblip_prompt"].replace("\{task\}", "\""+task+"\""))
+        tasks = json.load(open(task_path))
+        for domain in tasks:
+            domain_tasks = tasks[domain]
+            for key in domain_tasks:
+                flag=False
+                for path in all_source_paths:
+                    filename = path.split("/")[-1].split(".")[0]
+                    if key==filename:
+                        final_instruct_prompt = INSTRUCT_PROMPT[domain].replace("TASK", "\""+domain_tasks[key]+"\"")
+                        final_llm_prompt = config["llm_prompt"] + " " + LLM_PROMPT[domain].replace("TASK", "\""+domain_tasks[key]+"\"")
+                        instructblip_prompts.append(final_instruct_prompt)
+                        llm_prompts.append(final_llm_prompt)
+                        flag=True
+                        break
+                if not flag:
+                    print(key)
+        print(len(instructblip_prompts))
+        print(len(llm_prompts))
+        # print((all_source_paths))
+        print(instructblip_prompts[-5:])
+        print(llm_prompts[-5:])
     else:
         tasks = [""] * len(all_source_paths)
         instructblip_prompts = [config["instructblip_prompt"]] * len(all_source_paths)
+        llm_prompts = [config["llm_prompt"]] * len(all_source_paths)
 
-    LLM_PROMPT = config["llm_prompt"]
-    logging.info(f"Using prompt: {LLM_PROMPT}")
     logging.info("Number of images: " + str(len(all_source_paths)))
     batch_size = 8
     
@@ -115,28 +144,28 @@ def main():
         images = [download_image(path) for path in batch]
         instructblip_batch = [instructblip_prompts[i] for i in range(i, max_index)]
             
-        inputs = processor(images=images, text=instructblip_batch, return_tensors="pt").to(device, torch.float16)
+        inputs = processor(images=images, text=instructblip_batch, return_tensors="pt", padding=True).to(device, torch.float16)
         generated_ids = model.generate(
             **inputs,
             do_sample=False,
             num_beams=5,
-            max_length=256,
+            max_length=128,
             min_length=1,
             top_p=0.9,
             repetition_penalty=1.5,
             length_penalty=1.0,
-            temperature=1,
+            temperature=0.9,
         )
         generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)
         for text in generated_text:
-            blip_captions.append(text.strip())
+            blip_captions.append(text.strip().split(".")[0])
 
     logging.info(blip_captions)
 
     # Generate LLM text
     llm_text= []
-    for caption, task in zip(blip_captions, tasks):
-        llm_prompt = LLM_PROMPT.replace("\{task\}", "\""+task+"\"")
+    for caption, llm_prompt in zip(blip_captions, llm_prompts):
+        # llm_prompt = LLM_PROMPT.replace("\{task\}", "\""+task+"\"")
         gen_text = answer_fn(llm_prompt + caption + "\nOutput: ")
         for char in ["\"", ";", "."]:
             gen_text = gen_text.replace(char, "")
