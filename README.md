@@ -5,10 +5,10 @@ Create conda environment using `environment.yml`. Python version used is `Python
 
 ## Code for running image transcreation pipelines
 
-### e2e-instruct
+## e2e-instruct
 Run `./scripts/part1/e2e-instruct.sh` for running this pipeline for all countries.
 
-### cap-edit
+## cap-edit
 #### Step 1: Get image captions and edit them using GPT-3.5
 Enter OPENAI_API_KEY in `./configs/part1/caption-llm_edit/make_configs.sh`
 Run `./configs/part1/caption-llm_edit/make_configs.sh` to make config files for each country.
@@ -25,7 +25,7 @@ bash ./scripts/part1/step2_pnp_img-edit.sh
 ```
 
 
-### cap-retrieve
+## cap-retrieve
 #### Step 1: Get image captions and edit them using GPT-3.5
 Same as for `cap-edit`. No need to run anything here if already run for `cap-edit`, else follow instructions from above to get captions and LLM edits
 
@@ -43,3 +43,10 @@ Now, to retrieve images from LAION given a text query (here, this is the LLM-edi
 bash ./scripts/part1/cap-retrieve.sh
 ```
 
+## Model Outputs (Zeno Links)
+If y'all want to visualize model outputs for each part, please refer to the zeno links below. Note that the outputs were randomized for human evaluation, can you guess which pipeline each generated image is from? 😉
+
+### Brazil
+[Part1-Split1](https://hub.zenoml.com/project/f7595e88-4092-430a-9d45-55c5ad3b52a4/brazil_part1_split_1)
+
+[Part1-Split2](https://hub.zenoml.com/project/ce44019f-391d-417f-b7a2-58d678f2703e/brazil_part1_split_2)
