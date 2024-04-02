@@ -47,6 +47,27 @@ bash ./scripts/part1/cap-retrieve.sh
 If y'all want to visualize model outputs for each part, please refer to the zeno links below. Note that the outputs were randomized for human evaluation, can you guess which pipeline each generated image is from? 😉
 
 ### Brazil
-[Part1-Split1](https://hub.zenoml.com/project/f7595e88-4092-430a-9d45-55c5ad3b52a4/brazil_part1_split_1)
+[Concept-Split1](https://hub.zenoml.com/project/f7595e88-4092-430a-9d45-55c5ad3b52a4/brazil_part1_split_1)
 
-[Part1-Split2](https://hub.zenoml.com/project/ce44019f-391d-417f-b7a2-58d678f2703e/brazil_part1_split_2)
+[Concept-Split2](https://hub.zenoml.com/project/ce44019f-391d-417f-b7a2-58d678f2703e/brazil_part1_split_2)
+
+[Concept-Split3](https://hub.zenoml.com/project/dbb5cbfb-ae48-420e-9a35-9e9d95b95ea4/brazil_part1_split_3)
+
+[Concept-Split4](https://hub.zenoml.com/project/8e421113-0025-4e88-829d-c38d33676177/brazil_part1_split_4)
+
+[Concept-Split5](https://hub.zenoml.com/project/548dc681-13f6-426a-9d54-9b003fa8155b/brazil_part1_split_5)
+
+[Application](https://hub.zenoml.com/project/8f8f055b-9039-4ed3-8f06-358ce5226f23/brazil_part2_split_1)
+
+### India
+[Concept-Split1](https://hub.zenoml.com/project/f04d325b-42b8-4aae-a365-fc9da34118c1/india_part1_split_1)
+
+[Concept-Split2](https://hub.zenoml.com/project/f0bbf2d6-91ab-415f-a290-94acb00fd0e4/india_part1_split_2)
+
+[Concept-Split3](https://hub.zenoml.com/project/dc33e300-4d4d-4541-91d2-ac485cfd02ee/india_part1_split_3)
+
+[Concept-Split4](https://hub.zenoml.com/project/29de33e8-87ad-4546-8b5d-d959804a946f/india_part1_split_4)
+
+[Concept-Split5](https://hub.zenoml.com/project/8634a759-bc13-41c3-9d4c-8fac3b05f9b7/india_part1_split_5)
+
+[Application](https://hub.zenoml.com/project/c8de55f9-3309-4720-9578-753fe6222306/india_part2_split_1)
