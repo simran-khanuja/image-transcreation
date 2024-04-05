@@ -1,0 +1,2 @@
+metadata: ./outputs/e2e-instruct/japan/metadata.csv
+output_dir: ./outputs/e2e-instruct/japan
