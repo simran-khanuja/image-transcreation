@@ -42,8 +42,75 @@ Now, to retrieve images from LAION given a text query (here, this is the LLM-edi
 ```
 bash ./scripts/part1/cap-retrieve.sh
 ```
+## Model Outputs (Per Pipeline)
 
-## Model Outputs (Zeno Links)
+### Pipeline-1
+[Brazil-Concept](https://hub.zenoml.com/project/049e6a6d-393f-4614-ab92-d346daf23c01/Instructpix2pix%20(brazil))
+[Brazil-Application]
+
+[India-Concept](https://hub.zenoml.com/project/a1fc8dec-79d7-4418-a560-e630bbbd0627/Instructpix2pix%20(india))
+[India-Application]
+
+[Japan-Concept](https://hub.zenoml.com/project/3c962f7d-5f32-41d6-a625-2473ef8bd073/Instructpix2pix%20(japan))
+[Japan-Application]
+
+[Nigeria-Concept](https://hub.zenoml.com/project/b97dc047-aec8-4211-88d6-bae8bee59f0c/Instructpix2pix%20(nigeria))
+[Nigeria-Application]
+
+[Portugal-Concept](https://hub.zenoml.com/project/0edb6611-3ec7-47b5-a11b-e71450b8ed4b/Instructpix2pix%20(portugal))
+[Portugal-Application]
+
+[Turkey-Concept](https://hub.zenoml.com/project/6c404350-142d-4f59-8229-c2d1bc30a9da/Instructpix2pix%20(turkey))
+[Turkey-Application]
+
+[United-States-Concept](https://hub.zenoml.com/project/a419083f-5e3a-4069-83a2-58f5aa9b76e4/Instructpix2pix%20(united-states))
+[United-States-Application]
+
+### Pipeline-2
+[Brazil-Concept]
+[Brazil-Application]
+
+[India-Concept]
+[India-Application]
+
+[Japan-Concept]
+[Japan-Application]
+
+[Nigeria-Concept]
+[Nigeria-Application]
+
+[Portugal-Concept]
+[Portugal-Application]
+
+[Turkey-Concept]
+[Turkey-Application]
+
+[United-States-Concept]
+[United-States-Application]
+
+### Pipeline-3
+[Brazil-Concept]
+[Brazil-Application]
+
+[India-Concept]
+[India-Application]
+
+[Japan-Concept]
+[Japan-Application]
+
+[Nigeria-Concept]
+[Nigeria-Application]
+
+[Portugal-Concept]
+[Portugal-Application]
+
+[Turkey-Concept]
+[Turkey-Application]
+
+[United-States-Concept]
+[United-States-Application]
+
+## Model Outputs (Human Evaluation)
 If y'all want to visualize model outputs for each part, please refer to the zeno links below. Note that the outputs were randomized for human evaluation, can you guess which pipeline each generated image is from? 😉
 
 ### Brazil
@@ -136,3 +203,6 @@ If y'all want to visualize model outputs for each part, please refer to the zeno
 [Concept-Split5](https://hub.zenoml.com/project/917f7000-6a6e-4894-b7e5-f95511aa826d/united-states_part1_split_5)
 
 [Application](https://hub.zenoml.com/project/f3090a24-8958-4a5e-930e-4a32353d5d94/united-states_part2_split_1)
+
+
+
