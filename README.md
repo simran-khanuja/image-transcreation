@@ -67,47 +67,47 @@ bash ./scripts/part1/cap-retrieve.sh
 [United-States-Application]
 
 ### Pipeline-2
-[Brazil-Concept]
+[Brazil-Concept](https://hub.zenoml.com/project/faf8f83f-ca35-484e-9fa5-3102a6c8d4d2/BLIP-GPT-PlugNPlay%20(brazil))
 [Brazil-Application]
 
-[India-Concept]
+[India-Concept](https://hub.zenoml.com/project/cca4f580-734a-45b9-8a61-122783cf58f1/BLIP-GPT-PlugNPlay%20(india))
 [India-Application]
 
-[Japan-Concept]
+[Japan-Concept](https://hub.zenoml.com/project/e4275d6e-1467-44d0-a4b8-ca015d52b287/BLIP-GPT-PlugNPlay%20(japan))
 [Japan-Application]
 
-[Nigeria-Concept]
+[Nigeria-Concept](https://hub.zenoml.com/project/bca31460-506a-4980-b93e-42a5cff142a9/BLIP-GPT-PlugNPlay%20(nigeria))
 [Nigeria-Application]
 
-[Portugal-Concept]
+[Portugal-Concept](https://hub.zenoml.com/project/86c9f64c-f35f-4226-9966-96ec337b4b16/BLIP-GPT-PlugNPlay%20(portugal))
 [Portugal-Application]
 
-[Turkey-Concept]
+[Turkey-Concept](https://hub.zenoml.com/project/d7066e55-c4bc-4402-9782-c8f1d340b2d9/BLIP-GPT-PlugNPlay%20(turkey))
 [Turkey-Application]
 
-[United-States-Concept]
+[United-States-Concept](https://hub.zenoml.com/project/51b746c6-302e-4128-93f8-c7f9f4d7677a/BLIP-GPT-PlugNPlay%20(united-states))
 [United-States-Application]
 
 ### Pipeline-3
-[Brazil-Concept]
+[Brazil-Concept](https://hub.zenoml.com/project/7232cbf1-e5a6-4c52-8a37-62e93c078869/part1%20brazil%20retrieval)
 [Brazil-Application]
 
-[India-Concept]
+[India-Concept](https://hub.zenoml.com/project/3210f7ed-b2cb-4593-96de-43072b5c3b0a/part1%20india%20retrieval)
 [India-Application]
 
-[Japan-Concept]
+[Japan-Concept](https://hub.zenoml.com/project/51f58190-79aa-48ec-a289-e0f3180ff8c9/part1%20japan%20retrieval)
 [Japan-Application]
 
-[Nigeria-Concept]
+[Nigeria-Concept](https://hub.zenoml.com/project/d137f45f-fff8-48c2-97c3-913d3c353bae/part1%20nigeria%20retrieval)
 [Nigeria-Application]
 
-[Portugal-Concept]
+[Portugal-Concept](https://hub.zenoml.com/project/fef20f21-94d2-4e45-b54b-9bb4f4264ffd/part1%20portugal%20retrieval)
 [Portugal-Application]
 
-[Turkey-Concept]
+[Turkey-Concept](https://hub.zenoml.com/project/b1d4d2db-7b9e-431a-9922-f15178357935/part1%20turkey%20retrieval)
 [Turkey-Application]
 
-[United-States-Concept]
+[United-States-Concept](https://hub.zenoml.com/project/1a3e82e3-e107-40db-ab33-d0c111cb2ef0/part1%20united-states%20retrieval)
 [United-States-Application]
 
 ## Model Outputs (Human Evaluation)
