@@ -45,26 +45,26 @@ bash ./scripts/part1/cap-retrieve.sh
 ## Model Outputs (Per Pipeline)
 
 ### Pipeline-1
-[Brazil-Concept](https://hub.zenoml.com/project/049e6a6d-393f-4614-ab92-d346daf23c01/Instructpix2pix%20(brazil))
-[Brazil-Application]
+[Brazil-Concept](https://hub.zenoml.com/project/51904131-94ed-40fa-9a0b-51bc50c68f74/InstructPix2Pix%20(brazil-part1))
+[Brazil-Application](https://hub.zenoml.com/project/d410950c-48db-4680-bb3d-fa98dd283137/InstructPix2Pix%20(Brazil-part2))
 
-[India-Concept](https://hub.zenoml.com/project/a1fc8dec-79d7-4418-a560-e630bbbd0627/Instructpix2pix%20(india))
-[India-Application]
+[India-Concept](https://hub.zenoml.com/project/e06d954d-0237-4082-bc8c-c69af17e3f52/InstructPix2Pix%20(india-part1))
+[India-Application](https://hub.zenoml.com/project/683a3077-2558-4c60-a6fb-1dc60dc611d7/InstructPix2Pix%20(India-part2))
 
-[Japan-Concept](https://hub.zenoml.com/project/3c962f7d-5f32-41d6-a625-2473ef8bd073/Instructpix2pix%20(japan))
-[Japan-Application]
+[Japan-Concept](https://hub.zenoml.com/project/24c0c40b-9755-4419-9950-ccbb049f07f8/InstructPix2Pix%20(japan-part1))
+[Japan-Application](https://hub.zenoml.com/project/7cb964de-19cd-4268-8ac4-201c63b91d91/InstructPix2Pix%20(Japan-part2))
 
-[Nigeria-Concept](https://hub.zenoml.com/project/b97dc047-aec8-4211-88d6-bae8bee59f0c/Instructpix2pix%20(nigeria))
-[Nigeria-Application]
+[Nigeria-Concept](https://hub.zenoml.com/project/683b0733-9ff4-4f1f-9852-44f11632d0d2/InstructPix2Pix%20(nigeria-part1))
+[Nigeria-Application](https://hub.zenoml.com/project/f75add50-f44f-47a6-972e-5b0ae4cec5bf/InstructPix2Pix%20(Nigeria-part2))
 
-[Portugal-Concept](https://hub.zenoml.com/project/0edb6611-3ec7-47b5-a11b-e71450b8ed4b/Instructpix2pix%20(portugal))
-[Portugal-Application]
+[Portugal-Concept](https://hub.zenoml.com/project/0048843b-33ac-42a3-b54d-c0924c6db123/InstructPix2Pix%20(portugal-part1))
+[Portugal-Application](https://hub.zenoml.com/project/d007e2f4-66f7-49ae-92eb-0289eeb69cc8/InstructPix2Pix%20(Portugal-part2))
 
-[Turkey-Concept](https://hub.zenoml.com/project/6c404350-142d-4f59-8229-c2d1bc30a9da/Instructpix2pix%20(turkey))
-[Turkey-Application]
+[Turkey-Concept](https://hub.zenoml.com/project/822bb0a0-d08b-470d-8507-785fd1b330fb/InstructPix2Pix%20(turkey-part1))
+[Turkey-Application](https://hub.zenoml.com/project/b50e91ac-823a-4594-bf83-126b0e2ba9fc/InstructPix2Pix%20(Turkey-part2))
 
-[United-States-Concept](https://hub.zenoml.com/project/a419083f-5e3a-4069-83a2-58f5aa9b76e4/Instructpix2pix%20(united-states))
-[United-States-Application]
+[United-States-Concept](https://hub.zenoml.com/project/bc321f67-5c12-432b-9a99-61aabad36d82/InstructPix2Pix%20(US-part1))
+[United-States-Application](https://hub.zenoml.com/project/a315829f-ff08-4eeb-92a2-bef043a92acf/InstructPix2Pix%20(US-part2))
 
 ### Pipeline-2
 [Brazil-Concept](https://hub.zenoml.com/project/faf8f83f-ca35-484e-9fa5-3102a6c8d4d2/BLIP-GPT-PlugNPlay%20(brazil))
@@ -90,25 +90,25 @@ bash ./scripts/part1/cap-retrieve.sh
 
 ### Pipeline-3
 [Brazil-Concept](https://hub.zenoml.com/project/7232cbf1-e5a6-4c52-8a37-62e93c078869/part1%20brazil%20retrieval)
-[Brazil-Application]
+[Brazil-Application](https://hub.zenoml.com/project/e6b17e18-dbf7-4c76-a18f-d50f1b52e327/part2%20brazil%20retrieval)
 
 [India-Concept](https://hub.zenoml.com/project/3210f7ed-b2cb-4593-96de-43072b5c3b0a/part1%20india%20retrieval)
-[India-Application]
+[India-Application](https://hub.zenoml.com/project/13f225d3-70e1-40b7-ac37-17257dc9ed9e/part2%20india%20retrieval)
 
 [Japan-Concept](https://hub.zenoml.com/project/51f58190-79aa-48ec-a289-e0f3180ff8c9/part1%20japan%20retrieval)
-[Japan-Application]
+[Japan-Application](https://hub.zenoml.com/project/bb2df18a-747a-4638-8df3-e199be9c5410/part2%20japan%20retrieval)
 
 [Nigeria-Concept](https://hub.zenoml.com/project/d137f45f-fff8-48c2-97c3-913d3c353bae/part1%20nigeria%20retrieval)
-[Nigeria-Application]
+[Nigeria-Application](https://hub.zenoml.com/project/61a75edb-1c11-43f8-8550-abea8e6c941f/part2%20nigeria%20retrieval)
 
 [Portugal-Concept](https://hub.zenoml.com/project/fef20f21-94d2-4e45-b54b-9bb4f4264ffd/part1%20portugal%20retrieval)
-[Portugal-Application]
+[Portugal-Application](https://hub.zenoml.com/project/82622627-e216-4120-b11d-1294cb7abaeb/part2%20portugal%20retrieval)
 
 [Turkey-Concept](https://hub.zenoml.com/project/b1d4d2db-7b9e-431a-9922-f15178357935/part1%20turkey%20retrieval)
-[Turkey-Application]
+[Turkey-Application](https://hub.zenoml.com/project/20f1ed8e-4d67-455a-8c77-f878cdf05e64/part2%20turkey%20retrieval)
 
 [United-States-Concept](https://hub.zenoml.com/project/1a3e82e3-e107-40db-ab33-d0c111cb2ef0/part1%20united-states%20retrieval)
-[United-States-Application]
+[United-States-Application](https://hub.zenoml.com/project/7535d825-3134-4993-8a5a-373999cd9d54/part2%20united-states%20retrieval)
 
 ## Model Outputs (Human Evaluation)
 If y'all want to visualize model outputs for each part, please refer to the zeno links below. Note that the outputs were randomized for human evaluation, can you guess which pipeline each generated image is from? 😉
