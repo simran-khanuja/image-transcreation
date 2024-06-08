@@ -67,25 +67,25 @@ bash ./scripts/part1/cap-retrieve.sh
 [United-States-Application](https://hub.zenoml.com/project/a315829f-ff08-4eeb-92a2-bef043a92acf/InstructPix2Pix%20(US-part2))
 
 ### Pipeline-2
-[Brazil-Concept](https://hub.zenoml.com/project/faf8f83f-ca35-484e-9fa5-3102a6c8d4d2/BLIP-GPT-PlugNPlay%20(brazil))
+[Brazil-Concept](https://hub.zenoml.com/project/10a0f8b3-d3d6-4b46-938c-c73f1f310cd4/Cap-LLMedit-Plugnplay%20(brazil-part1))
 [Brazil-Application]
 
-[India-Concept](https://hub.zenoml.com/project/cca4f580-734a-45b9-8a61-122783cf58f1/BLIP-GPT-PlugNPlay%20(india))
+[India-Concept](https://hub.zenoml.com/project/7ff488ba-4d70-49c4-8f94-941687c4748a/Cap-LLMedit-Plugnplay%20(India-part1))
 [India-Application]
 
-[Japan-Concept](https://hub.zenoml.com/project/e4275d6e-1467-44d0-a4b8-ca015d52b287/BLIP-GPT-PlugNPlay%20(japan))
+[Japan-Concept](https://hub.zenoml.com/project/32ce490c-3253-4f1f-aebe-7f360e7d1b9c/Cap-LLMedit-Plugnplay%20(japan-part1))
 [Japan-Application]
 
-[Nigeria-Concept](https://hub.zenoml.com/project/bca31460-506a-4980-b93e-42a5cff142a9/BLIP-GPT-PlugNPlay%20(nigeria))
+[Nigeria-Concept](https://hub.zenoml.com/project/c47a0438-f3af-446a-91af-e93662b91b6f/Cap-LLMedit-Plugnplay%20(nigeria-part1))
 [Nigeria-Application]
 
-[Portugal-Concept](https://hub.zenoml.com/project/86c9f64c-f35f-4226-9966-96ec337b4b16/BLIP-GPT-PlugNPlay%20(portugal))
+[Portugal-Concept](https://hub.zenoml.com/project/51f5cad6-63d4-4159-b10f-432e9b3afa39/Cap-LLMedit-Plugnplay%20(portugal-part1))
 [Portugal-Application]
 
-[Turkey-Concept](https://hub.zenoml.com/project/d7066e55-c4bc-4402-9782-c8f1d340b2d9/BLIP-GPT-PlugNPlay%20(turkey))
+[Turkey-Concept](https://hub.zenoml.com/project/1aef08d1-c1d1-4fa9-babf-15c15c8097dc/Cap-LLMedit-Plugnplay%20(turkey-part1))
 [Turkey-Application]
 
-[United-States-Concept](https://hub.zenoml.com/project/51b746c6-302e-4128-93f8-c7f9f4d7677a/BLIP-GPT-PlugNPlay%20(united-states))
+[United-States-Concept](https://hub.zenoml.com/project/1d9b4650-8c17-4756-8336-6ac4cd3eca46/Cap-LLMedit-Plugnplay%20(united-states-part1))
 [United-States-Application]
 
 ### Pipeline-3
