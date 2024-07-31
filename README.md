@@ -142,31 +142,41 @@ Here, we caption models using GPT-4o and ask GPT-4 to edit captions for cultural
 
 [Brazil-Concept](https://hub.zenoml.com/project/45467ecf-a11b-419e-abf2-5e10fad8741b/dalle3-gpt4-brazil)
 
-[Brazil-Application]()
+[Brazil-Application](https://hub.zenoml.com/project/69aa9e78-832f-4c28-b052-5f0db1a52787/dalle3-gpt4-brazil-pt2)
 
 [India-Concept](https://hub.zenoml.com/project/89420e37-a435-423f-9777-9688b88a16b3/dalle3-gpt4-india)
 
-[India-Application]()
+[India-Application](https://hub.zenoml.com/project/a6aae39e-11b1-470c-95d1-9966dd2bbff3/dalle3-gpt4-india-pt2)
 
 [Japan-Concept](https://hub.zenoml.com/project/41000aa9-a638-483e-8445-61012aac6bd5/dalle3-gpt4-japan)
 
-[Japan-Application]()
+[Japan-Application](https://hub.zenoml.com/project/f9ada64d-f66b-4b28-989b-b159a1109447/dalle3-gpt4-japan-pt2)
 
 [Nigeria-Concept](https://hub.zenoml.com/project/069f0716-2483-4d9a-92e8-c0835410344c/dalle3-gpt4-nigeria)
 
-[Nigeria-Application]()
+[Nigeria-Application](https://hub.zenoml.com/project/01d18dc0-882f-4a0d-acb6-4aedf2cd53b5/dalle3-gpt4-nigeria-pt2)
 
 [Portugal-Concept](https://hub.zenoml.com/project/adc9a920-a0e4-4bef-9c63-5a4efd8de0e6/dalle3-gpt4-portugal)
 
-[Portugal-Application]()
+[Portugal-Application](https://hub.zenoml.com/project/c2139ec3-81f2-4328-ae0a-d923c0a3acab/dalle3-gpt4-portugal-pt2)
 
 [Turkey-Concept](https://hub.zenoml.com/project/0ccb0517-f870-4361-b853-1be4f282f503/dalle3-gpt4-turkey)
 
-[Turkey-Application]()
+[Turkey-Application](https://hub.zenoml.com/project/6d68c16d-641d-467f-b46b-a2d17ee88296/dalle3-gpt4-turkey-pt2)
 
-[United-States-Concept]()
+[United-States-Concept](https://hub.zenoml.com/project/f14e806e-11ff-4fb1-8337-dcf22fa738da/dalle3-gpt4-united-states)
 
-[United-States-Application]()
+[United-States-Application](https://hub.zenoml.com/project/e86c0719-a723-4453-9578-f8e464541c79/dalle3-gpt4-united-states-pt2)
+
+
+### Bonus: GPT-4o + GPT-4 (multilingual captioning+editing) + DALL-E3
+Here, we caption models using GPT-4o and ask GPT-4 to edit captions for cultural relevance in a language primarily spoken in that country. Finally, we prompt DALL-E3 to generate new images using the GPT4-edited caption.
+
+[Brazil-Concept](https://hub.zenoml.com/project/edc564fb-73e7-4e40-8ce6-bca39e30cc14/dalle3-gpt4-brazil-multilingual)
+
+[India-Concept](https://hub.zenoml.com/project/6ed5ce3d-b435-4c51-a7c0-58dd9742f9a2/dalle3-gpt4-india-multilingual)
+
+[Japan-Concept](https://hub.zenoml.com/project/3109fadc-90f8-4935-9a5b-7871c4b51193/dalle3-gpt4-japan-multilingual)
 
 
 
