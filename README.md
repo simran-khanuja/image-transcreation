@@ -178,6 +178,12 @@ Here, we caption models using GPT-4o and ask GPT-4 to edit captions for cultural
 
 [Japan-Concept](https://hub.zenoml.com/project/3109fadc-90f8-4935-9a5b-7871c4b51193/dalle3-gpt4-japan-multilingual)
 
+[Nigeria-Concept](https://hub.zenoml.com/project/3109fadc-90f8-4935-9a5b-7871c4b51193/dalle3-gpt4-nigeria-multilingual)
+
+[Portugal-Concept](https://hub.zenoml.com/project/3109fadc-90f8-4935-9a5b-7871c4b51193/dalle3-gpt4-portugal-multilingual)
+
+[Turkey-Concept](https://hub.zenoml.com/project/3109fadc-90f8-4935-9a5b-7871c4b51193/dalle3-gpt4-turkey-multilingual)
+
 
 
 ## Model Outputs (Human Evaluation)
