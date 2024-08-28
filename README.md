@@ -1,18 +1,50 @@
-# Image Transcreation
+<div align="center">
 
-## Setup
-Create conda environment using `environment.yml`. Python version used is `Python 3.10.12`.
+<!-- TITLE -->
+# *An image speaks a thousand words but can everyone listen?* On image transcreation for cultural relevance
+![ImageTranscreation](assets/main.png)
 
-## Code for running image transcreation pipelines
+[![arXiv](https://img.shields.io/badge/cs.CL-arxiv%3A2404.01247-red)](https://arxiv.org/abs/2404.01247)
+[![Website](https://img.shields.io/badge/🌎-Website-blue.svg)](http://image-transcreation.github.io)
+</div>
 
-## e2e-instruct
-Run `./scripts/part1/e2e-instruct.sh` for running this pipeline for all countries.
+This is the official implementation of the paper [*An image speaks a thousand words but can everyone listen?* On image transcreation for cultural relevance](https://arxiv.org/abs/2404.01247) by Simran Khanuja, Sathyanarayanan Ramamoorthy, Yueqi Song, and Graham Neubig.
 
-## cap-edit
-#### Step 1: Get image captions and edit them using GPT-3.5
-Enter OPENAI_API_KEY in `./configs/part1/caption-llm_edit/make_configs.sh`
-Run `./configs/part1/caption-llm_edit/make_configs.sh` to make config files for each country.
-Run `./scripts/part1/caption-llm_edit.sh` to get captions and LLM edits for all countries using InstructBLIP and GPT-3.5 respectively.
+## Abstract
+Given the rise of multimedia content, human translators increasingly focus on culturally adapting not only words but also other modalities such as images to convey the same meaning. While several applications stand to benefit from this, machine translation systems remain confined to dealing with language in speech and text. In this work, we take a first step towards translating images to make them culturally relevant. First, we build three pipelines comprising state-of-the-art generative models to do the task. Next, we build a two-part evaluation dataset: i) *concept*: comprising 600 images that are cross-culturally coherent, focusing on a single concept per image, and ii) *application*: comprising 100 images curated from real-world applications. We conduct a multi-faceted human evaluation of translated images to assess for cultural relevance and meaning preservation. We find that as of today, image-editing models fail at this task, but can be improved by leveraging LLMs and retrievers in the loop. Best pipelines can only translate 5% of images for some countries in the easier concept dataset and no translation is successful for some countries in the application dataset, highlighting the challenging nature of the task.
+
+## Code
+
+### Setup
+Create conda environment using `environment.yml`. The python version used is `Python 3.10.12`.
+```
+conda env create -f environment.yml
+conda activate transcreation
+```
+
+### Pipeline 1: *e2e-instruct*
+This pipeline uses the [InstructPix2Pix](https://www.timothybrooks.com/instruct-pix2pix) model to make an image culturally relevant to a target country. This is an end-to-end pipeline which only makes use of one image-editing model. To run the pipeline for a specific list of countries or all the countries, use the following commands:
+```
+bash ./scripts/part1/e2e-instruct.sh india,japan
+bash ./scripts/part1/e2e-instruct.sh all
+```
+
+### Pipeline 2: *cap-edit*
+In this pipeline, we first caption the images, edit the captions to make them culturally relevant, and use these captions to edit the original image. The steps to run this pipeline are given below:
+
+#### Step 1: Get image captions using InstructBLIP and edit them using GPT-3.5
+First, enter your OPENAI_API_KEY in `./configs/part1/caption-llm_edit/make_configs.sh`.
+
+Next, we caption the images using InstructBLIP and edit them for cultural relevance, using GPT-3.5. For this, we first need to make config files for each country. To do this, run the following command:
+```
+bash ./configs/part1/caption-llm_edit/make_configs.sh
+``` 
+
+To run the pipeline for a specific list of countries or all the countries, use the following commands:
+```
+bash ./scripts/part1/caption-llm_edit.sh portugal,turkey
+bash ./scripts/part1/caption-llm_edit.sh all
+```
 
 #### Step 2: Edit images using LLM-edits and PlugnPlay
 We've made modifications on top of `https://github.com/MichalGeyer/pnp-diffusers`. Kindly clone the fork of this repository from `<enter fork URL post review>` under `./src/pipelines/cap-edit/image-edit`. Follow through their readme and first create the `pnp-diffusers` environment. Image-editing using the plugnplay model involves two stages: a) obtain the noisy latents if the original image; and b) image-editing as per text guidance. To obtain latents, run the following:

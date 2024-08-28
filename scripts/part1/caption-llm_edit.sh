@@ -17,5 +17,5 @@ fi
 # Iterate over the selected countries and run the Python script
 for country in "${selected_countries[@]}"
 do
-    python ./src/pipelines/e2e-instruct.py --config ./configs/part1/e2e-instruct/$country.yaml
+    python ./src/pipelines/caption-llm_edit.py --config ./configs/part1/caption-llm_edit/$country.yaml
 done
