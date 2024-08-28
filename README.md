@@ -85,6 +85,7 @@ Now, to retrieve images from Datacomp given a text query (here, this is the LLM-
 ```
 bash ./scripts/part1/cap-retrieve.sh
 ```
+
 ### Model Outputs (Per Pipeline)
 
 #### Pipeline-1
@@ -324,4 +325,16 @@ If y'all want to visualize model outputs for each part, please refer to the zeno
 [Application](https://hub.zenoml.com/project/f3090a24-8958-4a5e-930e-4a32353d5d94/united-states_part2_split_1)
 
 
+## Citation
+
+If you find this work useful in your research, please cite:
+
+```bibtex
+@article{khanuja2024image,
+  title={An image speaks a thousand words, but can everyone listen? On translating images for cultural relevance},
+  author={Khanuja, Simran and Ramamoorthy, Sathyanarayanan and Song, Yueqi and Neubig, Graham},
+  journal={arXiv preprint arXiv:2404.01247},
+  year={2024}
+}
+```
 
