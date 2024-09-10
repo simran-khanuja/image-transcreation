@@ -13,6 +13,14 @@ This is the official implementation of the paper [*An image speaks a thousand wo
 ## Abstract
 Given the rise of multimedia content, human translators increasingly focus on culturally adapting not only words but also other modalities such as images to convey the same meaning. While several applications stand to benefit from this, machine translation systems remain confined to dealing with language in speech and text. In this work, we take a first step towards translating images to make them culturally relevant. First, we build three pipelines comprising state-of-the-art generative models to do the task. Next, we build a two-part evaluation dataset: i) *concept*: comprising 600 images that are cross-culturally coherent, focusing on a single concept per image, and ii) *application*: comprising 100 images curated from real-world applications. We conduct a multi-faceted human evaluation of translated images to assess for cultural relevance and meaning preservation. We find that as of today, image-editing models fail at this task, but can be improved by leveraging LLMs and retrievers in the loop. Best pipelines can only translate 5% of images for some countries in the easier concept dataset and no translation is successful for some countries in the application dataset, highlighting the challenging nature of the task.
 
+
+## Test Data
+The test data curated in this paper can be found under the `data` folder. We have also uploaded this data on Zeno for visualization purposes.
+
+[Concept Dataset](https://hub.zenoml.com/project/5416ea98-0c5b-42ef-8988-3deebbf86a50/Image%20Transcreation%20(Concept))
+[Application Dataset](https://hub.zenoml.com/project/aaa53662-6ee0-459a-b39f-4fdcf7aff8de/Image%20Transcreation%20(Application))
+
+
 ## Code
 
 ### Setup
