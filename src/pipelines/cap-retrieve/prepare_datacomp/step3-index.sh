@@ -1,4 +1,15 @@
-#!/bin/bash
+#!/bin/sh
+
+ROOT="./datacomp"
+
+# activate conda
+source ~/miniconda3/etc/profile.d/conda.sh 
+conda activate transcreation
+
+echo ${HOSTNAME}
+mkdir -p /scratch/${USER}/cache
+
+export HF_HOME=/scratch/${USER}/cache
 
 # Predefined list of countries
 countries=("brazil" "india" "japan" "nigeria" "portugal" "turkey" "united-states")
@@ -17,5 +28,7 @@ fi
 # Iterate over the selected countries and run the Python script
 for country in "${selected_countries[@]}"
 do
-    python ./src/pipelines/e2e-instruct.py --config ./configs/part1/e2e-instruct/$country.yaml
+    clip-retrieval index \
+    --embeddings_folder ${ROOT}/embeddings/ViT-H-14/${country}_en \
+    --index_folder ${ROOT}/index/ViT-H-14/${country}_en
 done

@@ -1,0 +1,243 @@
+United Kingdom 60261696
+Australia 24958387
+Germany 16742475
+Canada 13270503
+Russia 10993999
+France 8924293
+Italy 8869975
+Netherlands 7256942
+India 6395342
+Japan 4955060
+European Union 4883784
+Colombia 4768539
+Poland 4625130
+British Indian Ocean Territory 4486338
+Czech Republic 4189656
+New Zealand 3885656
+South Africa 3760166
+Ireland 3637367
+Brazil 3461448
+Spain 3423290
+Romania 3041791
+United States 2674594
+China 2651946
+Montenegro 2460187
+Switzerland 2397178
+Ukraine 2337055
+Greece 2092304
+Sweden 1984530
+Belgium 1845335
+Vietnam 1744859
+Samoa 1650777
+Denmark 1591999
+Hungary 1586151
+Norway 1551077
+Tuvalu 1550970
+Malaysia 1432049
+Singapore 1338061
+Pakistan 1215618
+Portugal 1207775
+Austria 1181029
+Slovakia 1170123
+Finland 845819
+Indonesia 836902
+Republic of Korea 828929
+Taiwan 827464
+Estonia 725928
+Bulgaria 662722
+Turkey 633928
+Federated States of Micronesia 616937
+Philippines 613696
+Nigeria 594499
+Lithuania 589808
+Anguilla 580630
+Sao Tome and Principe 575630
+United Arab Emirates 562729
+Tonga 534333
+Hong Kong 512792
+Mexico 512557
+Islamic Republic of Iran 494590
+Belarus 416540
+Cocos (Keeling) Islands 416157
+Latvia 402344
+Libya 373517
+Thailand 361299
+Israel 336501
+Argentina 331426
+Iceland 311789
+Croatia 309279
+Serbia 299037
+Chile 275883
+Slovenia 271095
+Sri Lanka 244243
+Kenya 232533
+Niue 216261
+Soviet Union 211582
+Azerbaijan 209302
+Seychelles 207461
+Cyprus 190528
+Kazakhstan 176003
+Isle of Man 169876
+Belize 156548
+Montserrat 151529
+Reunion 143277
+Republic of Moldova 136932
+Palau 133349
+Luxembourg 122794
+Peru 120514
+Malta 115006
+Bangladesh 114554
+Armenia 102233
+Macedonia 93053
+Saudi Arabia 80031
+Morocco 73090
+Bosnia and Herzegovina 71360
+Namibia 70098
+Albania 64567
+Liechtenstein 60621
+Laos 60502
+Antigua and Barbuda 60045
+Georgia 51304
+Mongolia 51108
+Ghana 50767
+Mauritius 50559
+Uganda 47264
+Guernsey 47169
+Tunisia 46350
+Qatar 41539
+Saint Helena 39449
+South Georgia and the South Sandwich Islands 38596
+French Southern Territories 36242
+Uruguay 35131
+Faroe Islands 33780
+Cameroon 32969
+Lebanon 32212
+Fiji 30528
+Ascension Island 30356
+Dominican Republic 28239
+Rwanda 28048
+Nepal 27598
+Zimbabwe 27432
+Egypt 27194
+Venezuela 26986
+Saint Vincent and the Grenadines 25413
+Trinidad and Tobago 24827
+Kuwait 22902
+Tokelau 19848
+Uzbekistan 19418
+Cambodia 18977
+Costa Rica 18756
+Sint Maarten 18337
+Ecuador 18289
+Barbados 15393
+Saint Pierre and Miquelon 14974
+Tanzania 14383
+Paraguay 13771
+Turkmenistan 13686
+Timor-Leste 13323
+British Virgin Islands 13120
+Cuba 13098
+Kyrgyzstan 11708
+Christmas Island 10883
+Jordan 10637
+Gabon 10417
+Jamaica 9724
+Guyana 9474
+Somalia 9305
+Myanmar 9173
+San Marino 8947
+Oman 8693
+Jersey 8518
+Bahamas 8476
+Caymen Islands 8379
+Afghanistan 8195
+Monaco 8028
+Vatican City 7994
+Suriname 7853
+New Caledonia 7727
+Bahrain 7635
+Saint Lucia 7086
+Brunei Darussalam 6793
+Andorra 6659
+Maldives 6605
+Guatemala 6527
+Algeria 6309
+Botswana 6307
+Mali 6265
+Palestine 6244
+Burundi 6182
+Macao 6155
+Mayote 5949
+Bermuda 5717
+Panama 5211
+American Samoa 5159
+Saint Kitts and Nevis 5029
+Wallis and Futuna 4926
+Syria 4926
+Cote d'Ivoire 4791
+Iraq 4626
+Vanuatu 4455
+Senegal 4442
+Nicaragua 4191
+Guadeloupe 4112
+Bolivia 4071
+Honduras 3950
+Djibouti 3757
+Turks and Caicos Islands 3728
+Malawi 3202
+Papua New Guinea 3153
+French Polynesia 3027
+Gibraltar 3021
+Zambia 3016
+Tajikistan 2941
+French Guiana 2698
+El Salvador 2615
+Greenland 2604
+Solomon Islands 2470
+Puerto Rico 2409
+Martinique 2344
+Grenada 2307
+Democratic Republic of the Congo 2225
+Bhutan 2014
+Central African Republic 1953
+Madagascar 1886
+Ethiopia 1871
+Gambia 1857
+Lesotho 1732
+Mozambique 1572
+Liberia 1563
+Angola 1403
+Aland Islands 1357
+Haiti 1148
+Dominica 1055
+Swaziland 1041
+Sudan 810
+US Virgin Islands 752
+Sierra Leone 719
+Equatorial Guinea 679
+Curaçao 530
+Cape Verde 451
+Cook Islands 367
+Aruba 356
+Pitcairn 312
+Togo 308
+Burkina Faso 291
+Norfolk Island 263
+Northern Mariana Islands 256
+Benin 219
+Democratic People's Republic of Korea 186
+Antarctica 170
+Republic of Congo 149
+Kiribati 140
+Heard Island and McDonald Islands 126
+Guam 85
+Falkland Islands (Malvinas) 84
+Mauritania 56
+Chad 52
+Guinea 25
+Comoros 20
+South Sudan 19
+Niger 15
+Nauru 14
+Guinea-Bissau 6
+Marshall Islands 1
