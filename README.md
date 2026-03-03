@@ -6,6 +6,7 @@
 
 [![arXiv](https://img.shields.io/badge/cs.CL-arxiv%3A2404.01247-red)](https://arxiv.org/abs/2404.01247)
 [![Website](https://img.shields.io/badge/🌎-Website-blue.svg)](https://machine-transcreation.github.io/image-transcreation/)
+[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/cmu-lti/machine-translation-for-vision)
 </div>
 
 This is the official implementation of the paper [*An image speaks a thousand words but can everyone listen?* On image transcreation for cultural relevance](https://arxiv.org/abs/2404.01247) by Simran Khanuja, Sathyanarayanan Ramamoorthy, Yueqi Song, and Graham Neubig.
